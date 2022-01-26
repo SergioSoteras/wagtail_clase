@@ -56,7 +56,7 @@ class PelisIndexPage(Page):
         # Update context to include only published posts, ordered by reverse-chron
         context = super().get_context(request)
         pelis_list = Pelicula.objects.all()
-        paginator = Paginator(pelis_list, 15)
+        paginator = Paginator(pelis_list, 20)
         context['peliculas'] = paginator.page(1)
         return context
 
