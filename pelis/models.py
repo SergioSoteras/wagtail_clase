@@ -4,7 +4,7 @@ from wagtail.core.models import Page
 from wagtail.core.fields import RichTextField
 from wagtail.admin.edit_handlers import FieldPanel
 from wagtail.snippets.models import register_snippet
-from django.core.paginator import Paginator
+from django.core.paginator import Paginator,PageNotAnInteger , EmptyPage
 
 # Create your models here.
 
@@ -52,12 +52,22 @@ class PelisIndexPage(Page):
         FieldPanel('introduccion', classname="full")
     ]
 
+    def paginate(self, request, *args):
+        page = request.GET.get('page')
+        paginator = Paginator(Pelicula.objects.all(),20)
+        try:
+            pages = paginator.page(page)
+        except PageNotAnInteger:
+            pages = paginator.page(1)
+        except EmptyPage:
+            pages = paginator.page(paginator.num_pages)
+        return pages
+
     def get_context(self, request):
         # Update context to include only published posts, ordered by reverse-chron
         context = super().get_context(request)
-        pelis_list = Pelicula.objects.all()
-        paginator = Paginator(pelis_list, 20)
-        context['peliculas'] = paginator.page(1)
+        peliculas = self.paginate(request, Pelicula.objects.all())
+        context['peliculas'] = peliculas
         return context
 
    
