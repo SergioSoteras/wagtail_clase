@@ -21,7 +21,9 @@ class PelisAdmin(ModelAdmin):
     # These stub classes allow us to put various models into the custom "Wagtail Bakery" menu item
     # rather than under the default Snippets section.
     model = Pelicula
-    search_fields = ('title', 'cast', 'year')
+    list_display = ('title', 'reparto','year')
+    list_filter = ('year',)
+    search_fields = ('title', 'reparto', 'year')
     menu_icon = 'media'  # change as required
     menu_order = 200  # will put in 3rd place (000 being 1st, 100 2nd)
 

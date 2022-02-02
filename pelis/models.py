@@ -1,3 +1,4 @@
+from enum import unique
 from django.db import models
 
 from wagtail.core.models import Page
@@ -5,32 +6,47 @@ from wagtail.core.fields import RichTextField
 from wagtail.admin.edit_handlers import FieldPanel
 from wagtail.snippets.models import register_snippet
 from django.core.paginator import Paginator,PageNotAnInteger , EmptyPage
+from django.utils.text import slugify
 
 # Create your models here.
+
+#Generos de las Peliculas
+class Genre(models.Model):
+    nombre = models.CharField(max_length=50, unique=True)
+    def __str__(self):
+        return self.nombre
+    panels = [
+        FieldPanel('nombre')
+    ]
+    class Meta:
+        verbose_name = 'Género'
+        verbose_name_plural = 'Géneros'
 
 # Modelo para Pelicula
 @register_snippet
 class Pelicula(models.Model):
     rating = models.DecimalField(max_digits=6, decimal_places=4, blank=True)
+    slug = models.SlugField(blank=True)
     link = models.URLField(blank=True)
     place = models.PositiveIntegerField(blank=True)
     year = models.PositiveIntegerField("Año", blank=True)
     imagen = models.URLField(blank=True)
     title = models.CharField('título',max_length=255,blank=True)
     reparto = models.CharField(max_length=255,blank=True)
-    genero = models.CharField(max_length=255,blank=True)
+    generos = models.ManyToManyField(Genre)
     resumen = models.CharField(max_length=255,blank=True)
     duracion = models.CharField(max_length=255,blank=True)
 
     panels = [
         FieldPanel('rating'),
+        FieldPanel('slug'),
         FieldPanel('link'),
         FieldPanel('place'),
         FieldPanel('year'),
         FieldPanel('imagen'),
         FieldPanel('title'),
         FieldPanel('reparto'),
-        FieldPanel('genero'),
+        FieldPanel('generos'),
         FieldPanel('resumen'),
         FieldPanel('duracion'),
         
@@ -52,9 +68,10 @@ class PelisIndexPage(Page):
         FieldPanel('introduccion', classname="full")
     ]
 
-    def paginate(self, request, *args):
+    def paginate(self, request, peliculas, *args):
         page = request.GET.get('page')
-        paginator = Paginator(Pelicula.objects.all(),20)
+        
+        paginator = Paginator(peliculas, 15)
         try:
             pages = paginator.page(page)
         except PageNotAnInteger:
@@ -66,8 +83,26 @@ class PelisIndexPage(Page):
     def get_context(self, request):
         # Update context to include only published posts, ordered by reverse-chron
         context = super().get_context(request)
-        peliculas = self.paginate(request, Pelicula.objects.all())
-        context['peliculas'] = peliculas
+        decada = request.GET.get('decada')
+        genero =  request.GET.get('genero')
+        qs = ''
+        if decada:
+            peliculas = Pelicula.objects.filter(year__gte=1990, 
+                year__lt=2000)
+            qs = f'decada={decada}'
+
+        elif genero:
+            peliculas = Pelicula.objects.filter(generos__nombre__icontains = 'Drama')
+            qs = f'genero={genero}'
+
+        else:
+            peliculas = Pelicula.objects.all()
+
+        context['peliculas'] = self.paginate(request, peliculas)
+        context['qs'] = qs
+        
         return context
+
+
 
    
