@@ -7,6 +7,7 @@ from wagtail.core import urls as wagtail_urls
 from wagtail.documents import urls as wagtaildocs_urls
 
 from search import views as search_views
+from pelis import urls as pelisurl
 
 urlpatterns = [
     path('django-admin/', admin.site.urls),
@@ -16,6 +17,7 @@ urlpatterns = [
 
     path('search/', search_views.search, name='search'),
 
+    path('apipelis/',include(pelisurl))
 ]
 
 
