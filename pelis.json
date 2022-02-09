@@ -1,0 +1,4277 @@
+[
+  { "model": "pelis.genre", "pk": 1, "fields": { "nombre": "Drama" } },
+  { "model": "pelis.genre", "pk": 2, "fields": { "nombre": "Crimen" } },
+  { "model": "pelis.genre", "pk": 3, "fields": { "nombre": "Acción" } },
+  { "model": "pelis.genre", "pk": 4, "fields": { "nombre": "Biografía" } },
+  { "model": "pelis.genre", "pk": 5, "fields": { "nombre": "Historia" } },
+  { "model": "pelis.genre", "pk": 6, "fields": { "nombre": "Aventura" } },
+  { "model": "pelis.genre", "pk": 7, "fields": { "nombre": "Del oeste" } },
+  { "model": "pelis.genre", "pk": 8, "fields": { "nombre": "Romance" } },
+  {
+    "model": "pelis.genre",
+    "pk": 9,
+    "fields": { "nombre": "Ciencia ficción" }
+  },
+  { "model": "pelis.genre", "pk": 10, "fields": { "nombre": "Fantasía" } },
+  { "model": "pelis.genre", "pk": 11, "fields": { "nombre": "Misterio" } },
+  { "model": "pelis.genre", "pk": 12, "fields": { "nombre": "Terror" } },
+  { "model": "pelis.genre", "pk": 13, "fields": { "nombre": "Comedia" } },
+  { "model": "pelis.genre", "pk": 14, "fields": { "nombre": "Familiar" } },
+  { "model": "pelis.genre", "pk": 15, "fields": { "nombre": "Bélico" } },
+  { "model": "pelis.genre", "pk": 16, "fields": { "nombre": "Animación" } },
+  { "model": "pelis.genre", "pk": 17, "fields": { "nombre": "Suspense" } },
+  { "model": "pelis.genre", "pk": 18, "fields": { "nombre": "Música" } },
+  { "model": "pelis.genre", "pk": 19, "fields": { "nombre": "Cine negro" } },
+  { "model": "pelis.genre", "pk": 20, "fields": { "nombre": "Musical" } },
+  { "model": "pelis.genre", "pk": 21, "fields": { "nombre": "Deporte" } },
+  {
+    "model": "pelis.pelicula",
+    "pk": 251,
+    "fields": {
+      "rating": "9.2000",
+      "slug": "cadena-perpetua-1994",
+      "link": "https://www.imdb.com/title/tt0111161/",
+      "place": 1,
+      "year": 1994,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Cadena perpetua",
+      "reparto": "Frank Darabont (dir.), Tim Robbins, Morgan Freeman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 252,
+    "fields": {
+      "rating": "9.1000",
+      "slug": "el-padrino-1972",
+      "link": "https://www.imdb.com/title/tt0068646/",
+      "place": 2,
+      "year": 1972,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "El padrino",
+      "reparto": "Francis Ford Coppola (dir.), Marlon Brando, Al Pacino",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 253,
+    "fields": {
+      "rating": "9.0000",
+      "slug": "el-padrino-parte-ii-1974",
+      "link": "https://www.imdb.com/title/tt0071562/",
+      "place": 3,
+      "year": 1974,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "El padrino: Parte II",
+      "reparto": "Francis Ford Coppola (dir.), Al Pacino, Robert De Niro",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 254,
+    "fields": {
+      "rating": "9.0000",
+      "slug": "el-caballero-oscuro-2008",
+      "link": "https://www.imdb.com/title/tt0468569/",
+      "place": 4,
+      "year": 2008,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El caballero oscuro",
+      "reparto": "Christopher Nolan (dir.), Christian Bale, Heath Ledger",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 3]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 255,
+    "fields": {
+      "rating": "8.9000",
+      "slug": "12-hombres-sin-piedad-1957",
+      "link": "https://www.imdb.com/title/tt0050083/",
+      "place": 5,
+      "year": 1957,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "12 hombres sin piedad",
+      "reparto": "Sidney Lumet (dir.), Henry Fonda, Lee J. Cobb",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 256,
+    "fields": {
+      "rating": "8.9000",
+      "slug": "la-lista-de-schindler-1993",
+      "link": "https://www.imdb.com/title/tt0108052/",
+      "place": 6,
+      "year": 1993,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La lista de Schindler",
+      "reparto": "Steven Spielberg (dir.), Liam Neeson, Ralph Fiennes",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 5]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 257,
+    "fields": {
+      "rating": "8.9000",
+      "slug": "el-senor-de-los-anillos-el-retorno-del-rey-2003",
+      "link": "https://www.imdb.com/title/tt0167260/",
+      "place": 7,
+      "year": 2003,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El señor de los anillos: El retorno del rey",
+      "reparto": "Peter Jackson (dir.), Elijah Wood, Viggo Mortensen",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 258,
+    "fields": {
+      "rating": "8.8000",
+      "slug": "pulp-fiction-1994",
+      "link": "https://www.imdb.com/title/tt0110912/",
+      "place": 8,
+      "year": 1994,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Pulp Fiction",
+      "reparto": "Quentin Tarantino (dir.), John Travolta, Uma Thurman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 259,
+    "fields": {
+      "rating": "8.8000",
+      "slug": "el-bueno-el-feo-y-el-malo-1966",
+      "link": "https://www.imdb.com/title/tt0060196/",
+      "place": 9,
+      "year": 1966,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El bueno, el feo y el malo",
+      "reparto": "Sergio Leone (dir.), Clint Eastwood, Eli Wallach",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 7]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 260,
+    "fields": {
+      "rating": "8.8000",
+      "slug": "el-senor-de-los-anillos-la-comunidad-del-anillo-2001",
+      "link": "https://www.imdb.com/title/tt0120737/",
+      "place": 10,
+      "year": 2001,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El señor de los anillos: La comunidad del anillo",
+      "reparto": "Peter Jackson (dir.), Elijah Wood, Ian McKellen",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 261,
+    "fields": {
+      "rating": "8.7000",
+      "slug": "el-club-de-la-lucha-1999",
+      "link": "https://www.imdb.com/title/tt0137523/",
+      "place": 11,
+      "year": 1999,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El club de la lucha",
+      "reparto": "David Fincher (dir.), Brad Pitt, Edward Norton",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 262,
+    "fields": {
+      "rating": "8.7000",
+      "slug": "forrest-gump-1994",
+      "link": "https://www.imdb.com/title/tt0109830/",
+      "place": 12,
+      "year": 1994,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Forrest Gump",
+      "reparto": "Robert Zemeckis (dir.), Tom Hanks, Robin Wright",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 263,
+    "fields": {
+      "rating": "8.7000",
+      "slug": "origen-2010",
+      "link": "https://www.imdb.com/title/tt1375666/",
+      "place": 13,
+      "year": 2010,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Origen",
+      "reparto": "Christopher Nolan (dir.), Leonardo DiCaprio, Joseph Gordon-Levitt",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 264,
+    "fields": {
+      "rating": "8.7000",
+      "slug": "el-senor-de-los-anillos-las-dos-torres-2002",
+      "link": "https://www.imdb.com/title/tt0167261/",
+      "place": 14,
+      "year": 2002,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El señor de los anillos: Las dos torres",
+      "reparto": "Peter Jackson (dir.), Elijah Wood, Ian McKellen",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 265,
+    "fields": {
+      "rating": "8.7000",
+      "slug": "el-imperio-contraataca-1980",
+      "link": "https://www.imdb.com/title/tt0080684/",
+      "place": 15,
+      "year": 1980,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El Imperio contraataca",
+      "reparto": "Irvin Kershner (dir.), Mark Hamill, Harrison Ford",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 10]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 266,
+    "fields": {
+      "rating": "8.7000",
+      "slug": "matrix-1999",
+      "link": "https://www.imdb.com/title/tt0133093/",
+      "place": 16,
+      "year": 1999,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Matrix",
+      "reparto": "Lana Wachowski (dir.), Keanu Reeves, Laurence Fishburne",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 267,
+    "fields": {
+      "rating": "8.6000",
+      "slug": "uno-de-los-nuestros-1990",
+      "link": "https://www.imdb.com/title/tt0099685/",
+      "place": 17,
+      "year": 1990,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Uno de los nuestros",
+      "reparto": "Martin Scorsese (dir.), Robert De Niro, Ray Liotta",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 4]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 268,
+    "fields": {
+      "rating": "8.6000",
+      "slug": "alguien-volo-sobre-el-nido-del-cuco-1975",
+      "link": "https://www.imdb.com/title/tt0073486/",
+      "place": 18,
+      "year": 1975,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Alguien voló sobre el nido del cuco",
+      "reparto": "Milos Forman (dir.), Jack Nicholson, Louise Fletcher",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 269,
+    "fields": {
+      "rating": "8.6000",
+      "slug": "los-siete-samurais-1954",
+      "link": "https://www.imdb.com/title/tt0047478/",
+      "place": 19,
+      "year": 1954,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOWE4ZDdhNmMtNzE5ZC00NzExLTlhNGMtY2ZhYjYzODEzODA1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Los siete samuráis",
+      "reparto": "Akira Kurosawa (dir.), Toshirô Mifune, Takashi Shimura",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 270,
+    "fields": {
+      "rating": "8.6000",
+      "slug": "seven-1995",
+      "link": "https://www.imdb.com/title/tt0114369/",
+      "place": 20,
+      "year": 1995,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Seven",
+      "reparto": "David Fincher (dir.), Morgan Freeman, Brad Pitt",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 271,
+    "fields": {
+      "rating": "8.6000",
+      "slug": "spider-man-no-way-home-2021",
+      "link": "https://www.imdb.com/title/tt10872600/",
+      "place": 21,
+      "year": 2021,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Spider-Man: No Way Home",
+      "reparto": "Jon Watts (dir.), Tom Holland, Zendaya",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 10]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 272,
+    "fields": {
+      "rating": "8.6000",
+      "slug": "el-silencio-de-los-corderos-1991",
+      "link": "https://www.imdb.com/title/tt0102926/",
+      "place": 22,
+      "year": 1991,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El silencio de los corderos",
+      "reparto": "Jonathan Demme (dir.), Jodie Foster, Anthony Hopkins",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 12]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 273,
+    "fields": {
+      "rating": "8.6000",
+      "slug": "ciudad-de-dios-2002",
+      "link": "https://www.imdb.com/title/tt0317248/",
+      "place": 23,
+      "year": 2002,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Ciudad de Dios",
+      "reparto": "Fernando Meirelles (dir.), Alexandre Rodrigues, Leandro Firmino",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 274,
+    "fields": {
+      "rating": "8.6000",
+      "slug": "que-bello-es-vivir-1946",
+      "link": "https://www.imdb.com/title/tt0038650/",
+      "place": 24,
+      "year": 1946,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "¡Qué bello es vivir!",
+      "reparto": "Frank Capra (dir.), James Stewart, Donna Reed",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13, 14]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 275,
+    "fields": {
+      "rating": "8.6000",
+      "slug": "la-vida-es-bella-1997",
+      "link": "https://www.imdb.com/title/tt0118799/",
+      "place": 25,
+      "year": 1997,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La vida es bella",
+      "reparto": "Roberto Benigni (dir.), Roberto Benigni, Nicoletta Braschi",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 276,
+    "fields": {
+      "rating": "8.6000",
+      "slug": "salvar-al-soldado-ryan-1998",
+      "link": "https://www.imdb.com/title/tt0120815/",
+      "place": 26,
+      "year": 1998,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Salvar al soldado Ryan",
+      "reparto": "Steven Spielberg (dir.), Tom Hanks, Matt Damon",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 277,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "la-guerra-de-las-galaxias-1977",
+      "link": "https://www.imdb.com/title/tt0076759/",
+      "place": 27,
+      "year": 1977,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La guerra de las galaxias",
+      "reparto": "George Lucas (dir.), Mark Hamill, Harrison Ford",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 10]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 278,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "interstellar-2014",
+      "link": "https://www.imdb.com/title/tt0816692/",
+      "place": 28,
+      "year": 2014,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Interstellar",
+      "reparto": "Christopher Nolan (dir.), Matthew McConaughey, Anne Hathaway",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 6, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 279,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "el-viaje-de-chihiro-2001",
+      "link": "https://www.imdb.com/title/tt0245429/",
+      "place": 29,
+      "year": 2001,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El viaje de Chihiro",
+      "reparto": "Hayao Miyazaki (dir.), Daveigh Chase, Suzanne Pleshette",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 14, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 280,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "la-milla-verde-1999",
+      "link": "https://www.imdb.com/title/tt0120689/",
+      "place": 30,
+      "year": 1999,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "La milla verde",
+      "reparto": "Frank Darabont (dir.), Tom Hanks, Michael Clarke Duncan",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 10]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 281,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "parasitos-2019",
+      "link": "https://www.imdb.com/title/tt6751668/",
+      "place": 31,
+      "year": 2019,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Parásitos",
+      "reparto": "Bong Joon Ho (dir.), Kang-ho Song, Sun-kyun Lee",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 282,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "el-profesional-leon-1994",
+      "link": "https://www.imdb.com/title/tt0110413/",
+      "place": 32,
+      "year": 1994,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BODllNWE0MmEtYjUwZi00ZjY3LThmNmQtZjZlMjI2YTZjYmQ0XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El profesional (Léon)",
+      "reparto": "Luc Besson (dir.), Jean Reno, Gary Oldman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 3]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 283,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "harakiri-1962",
+      "link": "https://www.imdb.com/title/tt0056058/",
+      "place": 33,
+      "year": 1962,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYjBmYTQ1NjItZWU5MS00YjI0LTg2OTYtYmFkN2JkMmNiNWVkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_UY67_CR2,0,45,67_AL_.jpg",
+      "title": "Harakiri",
+      "reparto": "Masaki Kobayashi (dir.), Tatsuya Nakadai, Akira Ishihama",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 284,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "el-pianista-2002",
+      "link": "https://www.imdb.com/title/tt0253474/",
+      "place": 34,
+      "year": 2002,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR2,0,45,67_AL_.jpg",
+      "title": "El pianista",
+      "reparto": "Roman Polanski (dir.), Adrien Brody, Thomas Kretschmann",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 18]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 285,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "terminator-2-el-juicio-final-1991",
+      "link": "https://www.imdb.com/title/tt0103064/",
+      "place": 35,
+      "year": 1991,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Terminator 2: El juicio final",
+      "reparto": "James Cameron (dir.), Arnold Schwarzenegger, Linda Hamilton",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 286,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "regreso-al-futuro-1985",
+      "link": "https://www.imdb.com/title/tt0088763/",
+      "place": 36,
+      "year": 1985,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Regreso al futuro",
+      "reparto": "Robert Zemeckis (dir.), Michael J. Fox, Christopher Lloyd",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 9, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 287,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "sospechosos-habituales-1995",
+      "link": "https://www.imdb.com/title/tt0114814/",
+      "place": 37,
+      "year": 1995,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Sospechosos habituales",
+      "reparto": "Bryan Singer (dir.), Kevin Spacey, Gabriel Byrne",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 288,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "psicosis-1960",
+      "link": "https://www.imdb.com/title/tt0054215/",
+      "place": 38,
+      "year": 1960,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Psicosis",
+      "reparto": "Alfred Hitchcock (dir.), Anthony Perkins, Janet Leigh",
+      "resumen": "",
+      "duracion": "",
+      "generos": [11, 12, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 289,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "el-rey-leon-1994",
+      "link": "https://www.imdb.com/title/tt0110357/",
+      "place": 39,
+      "year": 1994,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El rey león",
+      "reparto": "Roger Allers (dir.), Matthew Broderick, Jeremy Irons",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 6, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 290,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "tiempos-modernos-1936",
+      "link": "https://www.imdb.com/title/tt0027977/",
+      "place": 40,
+      "year": 1936,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Tiempos modernos",
+      "reparto": "Charles Chaplin (dir.), Charles Chaplin, Paulette Goddard",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13, 14]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 291,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "la-tumba-de-las-luciernagas-1988",
+      "link": "https://www.imdb.com/title/tt0095327/",
+      "place": 41,
+      "year": 1988,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La tumba de las luciérnagas",
+      "reparto": "Isao Takahata (dir.), Tsutomu Tatsumi, Ayano Shiraishi",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 15, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 292,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "american-history-x-1998",
+      "link": "https://www.imdb.com/title/tt0120586/",
+      "place": 42,
+      "year": 1998,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZTJhN2FkYWEtMGI0My00YWM4LWI2MjAtM2UwNjY4MTI2ZTQyXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "American History X",
+      "reparto": "Tony Kaye (dir.), Edward Norton, Edward Furlong",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 293,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "whiplash-2014",
+      "link": "https://www.imdb.com/title/tt2582802/",
+      "place": 43,
+      "year": 2014,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Whiplash",
+      "reparto": "Damien Chazelle (dir.), Miles Teller, J.K. Simmons",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 18]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 294,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "gladiator-el-gladiador-2000",
+      "link": "https://www.imdb.com/title/tt0172495/",
+      "place": 44,
+      "year": 2000,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Gladiator (El gladiador)",
+      "reparto": "Ridley Scott (dir.), Russell Crowe, Joaquin Phoenix",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 295,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "luces-de-la-ciudad-1931",
+      "link": "https://www.imdb.com/title/tt0021749/",
+      "place": 45,
+      "year": 1931,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BY2I4MmM1N2EtM2YzOS00OWUzLTkzYzctNDc5NDg2N2IyODJmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Luces de la ciudad",
+      "reparto": "Charles Chaplin (dir.), Charles Chaplin, Virginia Cherrill",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 296,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "infiltrados-2006",
+      "link": "https://www.imdb.com/title/tt0407887/",
+      "place": 46,
+      "year": 2006,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Infiltrados",
+      "reparto": "Martin Scorsese (dir.), Leonardo DiCaprio, Matt Damon",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 297,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "intocable-2011",
+      "link": "https://www.imdb.com/title/tt1675434/",
+      "place": 47,
+      "year": 2011,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Intocable",
+      "reparto": "Olivier Nakache (dir.), François Cluzet, Omar Sy",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 298,
+    "fields": {
+      "rating": "8.5000",
+      "slug": "el-truco-final-el-prestigio-2006",
+      "link": "https://www.imdb.com/title/tt0482571/",
+      "place": 48,
+      "year": 2006,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El truco final (El prestigio)",
+      "reparto": "Christopher Nolan (dir.), Christian Bale, Hugh Jackman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 299,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "casablanca-1942",
+      "link": "https://www.imdb.com/title/tt0034583/",
+      "place": 49,
+      "year": 1942,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Casablanca",
+      "reparto": "Michael Curtiz (dir.), Humphrey Bogart, Ingrid Bergman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 300,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "hasta-que-llego-su-hora-1968",
+      "link": "https://www.imdb.com/title/tt0064116/",
+      "place": 50,
+      "year": 1968,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGI5MjBmYzYtMzJhZi00NGI1LTk3MzItYjBjMzcxM2U3MDdiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Hasta que llegó su hora",
+      "reparto": "Sergio Leone (dir.), Henry Fonda, Charles Bronson",
+      "resumen": "",
+      "duracion": "",
+      "generos": [7]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 301,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "la-ventana-indiscreta-1954",
+      "link": "https://www.imdb.com/title/tt0047396/",
+      "place": 51,
+      "year": 1954,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "La ventana indiscreta",
+      "reparto": "Alfred Hitchcock (dir.), James Stewart, Grace Kelly",
+      "resumen": "",
+      "duracion": "",
+      "generos": [11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 302,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "cinema-paradiso-1988",
+      "link": "https://www.imdb.com/title/tt0095765/",
+      "place": 52,
+      "year": 1988,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BM2FhYjEyYmYtMDI1Yy00YTdlLWI2NWQtYmEzNzAxOGY1NjY2XkEyXkFqcGdeQXVyNTA3NTIyNDg@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Cinema Paradiso",
+      "reparto": "Giuseppe Tornatore (dir.), Philippe Noiret, Enzo Cannavale",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 303,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "alien-el-octavo-pasajero-1979",
+      "link": "https://www.imdb.com/title/tt0078748/",
+      "place": 53,
+      "year": 1979,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Alien, el octavo pasajero",
+      "reparto": "Ridley Scott (dir.), Sigourney Weaver, Tom Skerritt",
+      "resumen": "",
+      "duracion": "",
+      "generos": [9, 12]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 304,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "apocalypse-now-1979",
+      "link": "https://www.imdb.com/title/tt0078788/",
+      "place": 54,
+      "year": 1979,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDdhODg0MjYtYzBiOS00ZmI5LWEwZGYtZDEyNDU4MmQyNzFkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Apocalypse Now",
+      "reparto": "Francis Ford Coppola (dir.), Martin Sheen, Marlon Brando",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 11, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 305,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "memento-2000",
+      "link": "https://www.imdb.com/title/tt0209144/",
+      "place": 55,
+      "year": 2000,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Memento",
+      "reparto": "Christopher Nolan (dir.), Guy Pearce, Carrie-Anne Moss",
+      "resumen": "",
+      "duracion": "",
+      "generos": [11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 306,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "en-busca-del-arca-perdida-1981",
+      "link": "https://www.imdb.com/title/tt0082971/",
+      "place": 56,
+      "year": 1981,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "En busca del arca perdida",
+      "reparto": "Steven Spielberg (dir.), Harrison Ford, Karen Allen",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 307,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "el-gran-dictador-1940",
+      "link": "https://www.imdb.com/title/tt0032553/",
+      "place": 57,
+      "year": 1940,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiMmUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El gran dictador",
+      "reparto": "Charles Chaplin (dir.), Charles Chaplin, Paulette Goddard",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 308,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "django-desencadenado-2012",
+      "link": "https://www.imdb.com/title/tt1853728/",
+      "place": 58,
+      "year": 2012,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Django desencadenado",
+      "reparto": "Quentin Tarantino (dir.), Jamie Foxx, Christoph Waltz",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 7]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 309,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "la-vida-de-los-otros-2006",
+      "link": "https://www.imdb.com/title/tt0405094/",
+      "place": 59,
+      "year": 2006,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOThkM2EzYmMtNDE3NS00NjlhLTg4YzktYTdhNzgyOWY3ZDYzXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "La vida de los otros",
+      "reparto": "Florian Henckel von Donnersmarck (dir.), Ulrich Mühe, Martina Gedeck",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 310,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "senderos-de-gloria-1957",
+      "link": "https://www.imdb.com/title/tt0050825/",
+      "place": 60,
+      "year": 1957,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNjViMmRkOTEtM2ViOS00ODg0LWJhYWEtNTBlOGQxNDczOGY3XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Senderos de gloria",
+      "reparto": "Stanley Kubrick (dir.), Kirk Douglas, Ralph Meeker",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 311,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "el-crepusculo-de-los-dioses-1950",
+      "link": "https://www.imdb.com/title/tt0043014/",
+      "place": 61,
+      "year": 1950,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTU0NTkyNzYwMF5BMl5BanBnXkFtZTgwMDU0NDk5MTI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El crepúsculo de los dioses",
+      "reparto": "Billy Wilder (dir.), William Holden, Gloria Swanson",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 19]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 312,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "walle-2008",
+      "link": "https://www.imdb.com/title/tt0910970/",
+      "place": 62,
+      "year": 2008,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "WALL·E",
+      "reparto": "Andrew Stanton (dir.), Ben Burtt, Elissa Knight",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 14, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 313,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "vengadores-infinity-war-2018",
+      "link": "https://www.imdb.com/title/tt4154756/",
+      "place": 63,
+      "year": 2018,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Vengadores: Infinity War",
+      "reparto": "Anthony Russo (dir.), Robert Downey Jr., Chris Hemsworth",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 314,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "testigo-de-cargo-1957",
+      "link": "https://www.imdb.com/title/tt0051201/",
+      "place": 64,
+      "year": 1957,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZDA4MWNkMTctZDQ0Mi00MTY2LThjYTAtNWM5OTY3NzA4MzIyXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Testigo de cargo",
+      "reparto": "Billy Wilder (dir.), Tyrone Power, Marlene Dietrich",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 315,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "spider-man-un-nuevo-universo-2018",
+      "link": "https://www.imdb.com/title/tt4633694/",
+      "place": 65,
+      "year": 2018,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Spider-Man: Un nuevo universo",
+      "reparto": "Bob Persichetti (dir.), Shameik Moore, Jake Johnson",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 316,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "el-resplandor-1980",
+      "link": "https://www.imdb.com/title/tt0081505/",
+      "place": 66,
+      "year": 1980,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El resplandor",
+      "reparto": "Stanley Kubrick (dir.), Jack Nicholson, Shelley Duvall",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 12]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 317,
+    "fields": {
+      "rating": "8.4000",
+      "slug": "telefono-rojo-volamos-hacia-moscu-1964",
+      "link": "https://www.imdb.com/title/tt0057012/",
+      "place": 67,
+      "year": 1964,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZWI3ZTMxNjctMjdlNS00NmUwLWFiM2YtZDUyY2I3N2MxYTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "¿Teléfono rojo? Volamos hacia Moscú",
+      "reparto": "Stanley Kubrick (dir.), Peter Sellers, George C. Scott",
+      "resumen": "",
+      "duracion": "",
+      "generos": [13, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 318,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "la-princesa-mononoke-1997",
+      "link": "https://www.imdb.com/title/tt0119698/",
+      "place": 68,
+      "year": 1997,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGIzY2IzODQtNThmMi00ZDE4LWI5YzAtNzNlZTM1ZjYyYjUyXkEyXkFqcGdeQXVyODEzNjM5OTQ@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La princesa Mononoke",
+      "reparto": "Hayao Miyazaki (dir.), Yôji Matsuda, Yuriko Ishida",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 319,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "old-boy-2003",
+      "link": "https://www.imdb.com/title/tt0364569/",
+      "place": 69,
+      "year": 2003,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Old Boy",
+      "reparto": "Park Chan-wook (dir.), Choi Min-sik, Yoo Ji-Tae",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 320,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "joker-2019",
+      "link": "https://www.imdb.com/title/tt7286456/",
+      "place": 70,
+      "year": 2019,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Joker",
+      "reparto": "Todd Phillips (dir.), Joaquin Phoenix, Robert De Niro",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 321,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "your-name-2016",
+      "link": "https://www.imdb.com/title/tt5311514/",
+      "place": 71,
+      "year": 2016,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Your Name.",
+      "reparto": "Makoto Shinkai (dir.), Ryûnosuke Kamiki, Mone Kamishiraishi",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 10, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 322,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "coco-2017",
+      "link": "https://www.imdb.com/title/tt2380307/",
+      "place": 72,
+      "year": 2017,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Coco",
+      "reparto": "Lee Unkrich (dir.), Anthony Gonzalez, Gael García Bernal",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 13, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 323,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "el-caballero-oscuro-la-leyenda-renace-2012",
+      "link": "https://www.imdb.com/title/tt1345836/",
+      "place": 73,
+      "year": 2012,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El caballero oscuro: La leyenda renace",
+      "reparto": "Christopher Nolan (dir.), Christian Bale, Tom Hardy",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 3]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 324,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "aliens-el-regreso-1986",
+      "link": "https://www.imdb.com/title/tt0090605/",
+      "place": 74,
+      "year": 1986,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGU2OGY5ZTYtMWNhYy00NjZiLWI0NjUtZmNhY2JhNDRmODU3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Aliens: El regreso",
+      "reparto": "James Cameron (dir.), Sigourney Weaver, Michael Biehn",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 325,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "erase-una-vez-en-america-1984",
+      "link": "https://www.imdb.com/title/tt0087843/",
+      "place": 75,
+      "year": 1984,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMGFkNWI4MTMtNGQ0OC00MWVmLTk3MTktOGYxN2Y2YWVkZWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Érase una vez en América",
+      "reparto": "Sergio Leone (dir.), Robert De Niro, James Woods",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 326,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "vengadores-endgame-2019",
+      "link": "https://www.imdb.com/title/tt4154796/",
+      "place": 76,
+      "year": 2019,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Vengadores: Endgame",
+      "reparto": "Anthony Russo (dir.), Robert Downey Jr., Chris Evans",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 327,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "cafarnaum-2018",
+      "link": "https://www.imdb.com/title/tt8267604/",
+      "place": 77,
+      "year": 2018,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMmExNzU2ZWMtYzUwYi00YmM2LTkxZTQtNmVhNjY0NTMyMWI2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Cafarnaúm",
+      "reparto": "Nadine Labaki (dir.), Zain Al Rafeea, Yordanos Shiferaw",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 328,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "el-submarino-das-boot-1981",
+      "link": "https://www.imdb.com/title/tt0082096/",
+      "place": 78,
+      "year": 1981,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOGZhZDIzNWMtNjkxMS00MDQ1LThkMTYtZWQzYWU3MWMxMGU5XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El submarino (Das Boot)",
+      "reparto": "Wolfgang Petersen (dir.), Jürgen Prochnow, Herbert Grönemeyer",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 329,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "el-infierno-del-odio-1963",
+      "link": "https://www.imdb.com/title/tt0057565/",
+      "place": 79,
+      "year": 1963,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTI4NTNhZDMtMWNkZi00MTRmLWJmZDQtMmJkMGVmZTEzODlhXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El infierno del odio",
+      "reparto": "Akira Kurosawa (dir.), Toshirô Mifune, Yutaka Sada",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 330,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "3-idiots-2009",
+      "link": "https://www.imdb.com/title/tt1187043/",
+      "place": 80,
+      "year": 2009,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "3 Idiots",
+      "reparto": "Rajkumar Hirani (dir.), Aamir Khan, Madhavan",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 331,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "toy-story-1995",
+      "link": "https://www.imdb.com/title/tt0114709/",
+      "place": 81,
+      "year": 1995,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Toy Story",
+      "reparto": "John Lasseter (dir.), Tom Hanks, Tim Allen",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 13, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 332,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "amadeus-1984",
+      "link": "https://www.imdb.com/title/tt0086879/",
+      "place": 82,
+      "year": 1984,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNWJlNzUzNGMtYTAwMS00ZjI2LWFmNWQtODcxNWUxODA5YmU1XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Amadeus",
+      "reparto": "Milos Forman (dir.), F. Murray Abraham, Tom Hulce",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 18]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 333,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "american-beauty-1999",
+      "link": "https://www.imdb.com/title/tt0169547/",
+      "place": 83,
+      "year": 1999,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNTBmZWJkNjctNDhiNC00MGE2LWEwOTctZTk5OGVhMWMyNmVhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "American Beauty",
+      "reparto": "Sam Mendes (dir.), Kevin Spacey, Annette Bening",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 334,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "braveheart-1995",
+      "link": "https://www.imdb.com/title/tt0112573/",
+      "place": 84,
+      "year": 1995,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Braveheart",
+      "reparto": "Mel Gibson (dir.), Mel Gibson, Sophie Marceau",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 5]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 335,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "malditos-bastardos-2009",
+      "link": "https://www.imdb.com/title/tt0361748/",
+      "place": 85,
+      "year": 2009,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Malditos bastardos",
+      "reparto": "Quentin Tarantino (dir.), Brad Pitt, Diane Kruger",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 6, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 336,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "el-indomable-will-hunting-1997",
+      "link": "https://www.imdb.com/title/tt0119217/",
+      "place": 86,
+      "year": 1997,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El indomable Will Hunting",
+      "reparto": "Gus Van Sant (dir.), Robin Williams, Matt Damon",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 337,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "hamilton-2020",
+      "link": "https://www.imdb.com/title/tt8503618/",
+      "place": 87,
+      "year": 2020,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Hamilton",
+      "reparto": "Thomas Kail (dir.), Lin-Manuel Miranda, Phillipa Soo",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 5]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 338,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "el-retorno-del-jedi-1983",
+      "link": "https://www.imdb.com/title/tt0086190/",
+      "place": 88,
+      "year": 1983,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El retorno del jedi",
+      "reparto": "Richard Marquand (dir.), Mark Hamill, Harrison Ford",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 10]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 339,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "masacre-ven-y-mira-1985",
+      "link": "https://www.imdb.com/title/tt0091251/",
+      "place": 89,
+      "year": 1985,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BODM4Njg0NTAtYjI5Ny00ZjAxLTkwNmItZTMxMWU5M2U3M2RjXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Masacre (Ven y mira)",
+      "reparto": "Elem Klimov (dir.), Aleksey Kravchenko, Olga Mironova",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 15, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 340,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "2001-una-odisea-del-espacio-1968",
+      "link": "https://www.imdb.com/title/tt0062622/",
+      "place": 90,
+      "year": 1968,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "2001: Una odisea del espacio",
+      "reparto": "Stanley Kubrick (dir.), Keir Dullea, Gary Lockwood",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 341,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "reservoir-dogs-1992",
+      "link": "https://www.imdb.com/title/tt0105236/",
+      "place": 91,
+      "year": 1992,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Reservoir Dogs",
+      "reparto": "Quentin Tarantino (dir.), Harvey Keitel, Tim Roth",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 342,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "taare-zameen-par-2007",
+      "link": "https://www.imdb.com/title/tt0986264/",
+      "place": 92,
+      "year": 2007,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDhjZWViN2MtNzgxOS00NmI4LThiZDQtZDI3MzM4MDE4NTc0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Taare Zameen Par",
+      "reparto": "Aamir Khan (dir.), Darsheel Safary, Aamir Khan",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 14]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 343,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "vertigo-de-entre-los-muertos-1958",
+      "link": "https://www.imdb.com/title/tt0052357/",
+      "place": 93,
+      "year": 1958,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYTE4ODEwZDUtNDFjOC00NjAxLWEzYTQtYTI1NGVmZmFlNjdiL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Vértigo (De entre los muertos)",
+      "reparto": "Alfred Hitchcock (dir.), James Stewart, Kim Novak",
+      "resumen": "",
+      "duracion": "",
+      "generos": [8, 11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 344,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "m-el-vampiro-de-dusseldorf-1931",
+      "link": "https://www.imdb.com/title/tt0022100/",
+      "place": 94,
+      "year": 1931,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BODA4ODk3OTEzMF5BMl5BanBnXkFtZTgwMTQ2ODMwMzE@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "M, el vampiro de Düsseldorf",
+      "reparto": "Fritz Lang (dir.), Peter Lorre, Ellen Widmann",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 345,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "la-caza-2012",
+      "link": "https://www.imdb.com/title/tt2106476/",
+      "place": 95,
+      "year": 2012,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTg2NDg3ODg4NF5BMl5BanBnXkFtZTcwNzk3NTc3Nw@@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "La caza",
+      "reparto": "Thomas Vinterberg (dir.), Mads Mikkelsen, Thomas Bo Larsen",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 346,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "ciudadano-kane-1941",
+      "link": "https://www.imdb.com/title/tt0033467/",
+      "place": 96,
+      "year": 1941,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYjBiOTYxZWItMzdiZi00NjlkLWIzZTYtYmFhZjhiMTljOTdkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Ciudadano Kane",
+      "reparto": "Orson Welles (dir.), Orson Welles, Joseph Cotten",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 347,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "requiem-por-un-sueno-2000",
+      "link": "https://www.imdb.com/title/tt0180093/",
+      "place": 97,
+      "year": 2000,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Réquiem por un sueño",
+      "reparto": "Darren Aronofsky (dir.), Ellen Burstyn, Jared Leto",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 348,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "cantando-bajo-la-lluvia-1952",
+      "link": "https://www.imdb.com/title/tt0045152/",
+      "place": 98,
+      "year": 1952,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZDRjNGViMjQtOThlMi00MTA3LThkYzQtNzJkYjBkMGE0YzE1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Cantando bajo la lluvia",
+      "reparto": "Stanley Donen (dir.), Gene Kelly, Donald O'Connor",
+      "resumen": "",
+      "duracion": "",
+      "generos": [8, 13, 20]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 349,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "con-la-muerte-en-los-talones-1959",
+      "link": "https://www.imdb.com/title/tt0053125/",
+      "place": 99,
+      "year": 1959,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZDA3NDExMTUtMDlhOC00MmQ5LWExZGUtYmI1NGVlZWI4OWNiXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Con la muerte en los talones",
+      "reparto": "Alfred Hitchcock (dir.), Cary Grant, Eva Marie Saint",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 350,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "ikiru-vivir-1952",
+      "link": "https://www.imdb.com/title/tt0044741/",
+      "place": 100,
+      "year": 1952,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZmM0NGY3Y2MtMTA1YS00YmQzLTk2YTctYWFhMDkzMDRjZWQzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Ikiru (Vivir)",
+      "reparto": "Akira Kurosawa (dir.), Takashi Shimura, Nobuo Kaneko",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 351,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "olvidate-de-mi-2004",
+      "link": "https://www.imdb.com/title/tt0338013/",
+      "place": 101,
+      "year": 2004,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "¡Olvídate de mí!",
+      "reparto": "Michel Gondry (dir.), Jim Carrey, Kate Winslet",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 352,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "ladron-de-bicicletas-1948",
+      "link": "https://www.imdb.com/title/tt0040522/",
+      "place": 102,
+      "year": 1948,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNmI1ODdjODctMDlmMC00ZWViLWI5MzYtYzRhNDdjYmM3MzFjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Ladrón de bicicletas",
+      "reparto": "Vittorio De Sica (dir.), Lamberto Maggiorani, Enzo Staiola",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 353,
+    "fields": {
+      "rating": "8.3000",
+      "slug": "lawrence-de-arabia-1962",
+      "link": "https://www.imdb.com/title/tt0056172/",
+      "place": 103,
+      "year": 1962,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYWY5ZjhjNGYtZmI2Ny00ODM0LWFkNzgtZmI1YzA2N2MxMzA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Lawrence de Arabia",
+      "reparto": "David Lean (dir.), Peter O'Toole, Alec Guinness",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 354,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "el-chico-1921",
+      "link": "https://www.imdb.com/title/tt0012349/",
+      "place": 104,
+      "year": 1921,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZjhhMThhNDItNTY2MC00MmU1LTliNDEtNDdhZjdlNTY5ZDQ1XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El chico",
+      "reparto": "Charles Chaplin (dir.), Charles Chaplin, Edna Purviance",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13, 14]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 355,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "la-chaqueta-metalica-1987",
+      "link": "https://www.imdb.com/title/tt0093058/",
+      "place": 105,
+      "year": 1987,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzkxODk0NjEtYjc4Mi00ZDI0LTgyYjEtYzc1NDkxY2YzYTgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La chaqueta metálica",
+      "reparto": "Stanley Kubrick (dir.), Matthew Modine, R. Lee Ermey",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 356,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "incendios-2010",
+      "link": "https://www.imdb.com/title/tt1255953/",
+      "place": 106,
+      "year": 2010,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMWE3MGYzZjktY2Q5Mi00Y2NiLWIyYWUtMmIyNzA3YmZlMGFhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Incendios",
+      "reparto": "Denis Villeneuve (dir.), Lubna Azabal, Mélissa Désormeaux-Poulin",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 11, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 357,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "dangal-2016",
+      "link": "https://www.imdb.com/title/tt5074352/",
+      "place": 107,
+      "year": 2016,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Dangal",
+      "reparto": "Nitesh Tiwari (dir.), Aamir Khan, Sakshi Tanwar",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 4]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 358,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "el-apartamento-1960",
+      "link": "https://www.imdb.com/title/tt0053604/",
+      "place": 108,
+      "year": 1960,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzkwODFjNzItMmMwNi00MTU5LWE2MzktM2M4ZDczZGM1MmViXkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El apartamento",
+      "reparto": "Billy Wilder (dir.), Jack Lemmon, Shirley MacLaine",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 359,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "perdicion-1944",
+      "link": "https://www.imdb.com/title/tt0036775/",
+      "place": 109,
+      "year": 1944,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGRiNGQ0NzUtZjczMS00ZjIzLWI4NjAtY2ZiNTM2MGQxZGFiXkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Perdición",
+      "reparto": "Billy Wilder (dir.), Fred MacMurray, Barbara Stanwyck",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 19]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 360,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "metropolis-1927",
+      "link": "https://www.imdb.com/title/tt0017136/",
+      "place": 110,
+      "year": 1927,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTg5YWIyMWUtZDY5My00Zjc1LTljOTctYmI0MWRmY2M2NmRkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Metrópolis",
+      "reparto": "Fritz Lang (dir.), Brigitte Helm, Alfred Abel",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 361,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "el-padre-2020",
+      "link": "https://www.imdb.com/title/tt10272386/",
+      "place": 111,
+      "year": 2020,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGJhNWRiOWQtMjI4OS00ZjcxLTgwMTAtMzQ2ODkxY2JkOTVlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El padre",
+      "reparto": "Florian Zeller (dir.), Anthony Hopkins, Olivia Colman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 362,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "nader-y-simin-una-separacion-2011",
+      "link": "https://www.imdb.com/title/tt1832382/",
+      "place": 112,
+      "year": 2011,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BN2JmMjViMjMtZTM5Mi00ZGZkLTk5YzctZDg5MjFjZDE4NjNkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Nader y Simin, una separación",
+      "reparto": "Asghar Farhadi (dir.), Payman Maadi, Leila Hatami",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 363,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "taxi-driver-1976",
+      "link": "https://www.imdb.com/title/tt0075314/",
+      "place": 113,
+      "year": 1976,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BM2M1MmVhNDgtNmI0YS00ZDNmLTkyNjctNTJiYTQ2N2NmYzc2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Taxi Driver",
+      "reparto": "Martin Scorsese (dir.), Robert De Niro, Jodie Foster",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 364,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "la-naranja-mecanica-1971",
+      "link": "https://www.imdb.com/title/tt0066921/",
+      "place": 114,
+      "year": 1971,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "La naranja mecánica",
+      "reparto": "Stanley Kubrick (dir.), Malcolm McDowell, Patrick Magee",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 365,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "el-golpe-1973",
+      "link": "https://www.imdb.com/title/tt0070735/",
+      "place": 115,
+      "year": 1973,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGU3NjQ4YTMtZGJjOS00YTQ3LThmNmItMTI5MDE2ODI3NzY3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El golpe",
+      "reparto": "George Roy Hill (dir.), Paul Newman, Robert Redford",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 366,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "el-precio-del-poder-1983",
+      "link": "https://www.imdb.com/title/tt0086250/",
+      "place": 116,
+      "year": 1983,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNjdjNGQ4NDEtNTEwYS00MTgxLTliYzQtYzE2ZDRiZjFhZmNlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El precio del poder",
+      "reparto": "Brian De Palma (dir.), Al Pacino, Michelle Pfeiffer",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 367,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "snatch-cerdos-y-diamantes-2000",
+      "link": "https://www.imdb.com/title/tt0208092/",
+      "place": 117,
+      "year": 2000,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTA2NDYxOGYtYjU1Mi00Y2QzLTgxMTQtMWI1MGI0ZGQ5MmU4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Snatch, cerdos y diamantes",
+      "reparto": "Guy Ritchie (dir.), Jason Statham, Brad Pitt",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 368,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "1917-2019",
+      "link": "https://www.imdb.com/title/tt8579674/",
+      "place": 118,
+      "year": 2019,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "1917",
+      "reparto": "Sam Mendes (dir.), Dean-Charles Chapman, George MacKay",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 369,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "amelie-2001",
+      "link": "https://www.imdb.com/title/tt0211915/",
+      "place": 119,
+      "year": 2001,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDg4NjM1YjMtYmNhZC00MjM0LWFiZmYtNGY1YjA3MzZmODc5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Amelie",
+      "reparto": "Jean-Pierre Jeunet (dir.), Audrey Tautou, Mathieu Kassovitz",
+      "resumen": "",
+      "duracion": "",
+      "generos": [8, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 370,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "matar-a-un-ruisenor-1962",
+      "link": "https://www.imdb.com/title/tt0056592/",
+      "place": 120,
+      "year": 1962,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNmVmYzcwNzMtMWM1NS00MWIyLThlMDEtYzUwZDgzODE1NmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Matar a un ruiseñor",
+      "reparto": "Robert Mulligan (dir.), Gregory Peck, John Megna",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 371,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "toy-story-3-2010",
+      "link": "https://www.imdb.com/title/tt0435761/",
+      "place": 121,
+      "year": 2010,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Toy Story 3",
+      "reparto": "Lee Unkrich (dir.), Tom Hanks, Tim Allen",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 13, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 372,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "la-muerte-tenia-un-precio-1965",
+      "link": "https://www.imdb.com/title/tt0059578/",
+      "place": 122,
+      "year": 1965,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNWM1NmYyM2ItMTFhNy00NDU0LThlYWUtYjQyYTJmOTY0ZmM0XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La muerte tenía un precio",
+      "reparto": "Sergio Leone (dir.), Clint Eastwood, Lee Van Cleef",
+      "resumen": "",
+      "duracion": "",
+      "generos": [7]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 373,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "up-2009",
+      "link": "https://www.imdb.com/title/tt1049413/",
+      "place": 123,
+      "year": 2009,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Up",
+      "reparto": "Pete Docter (dir.), Ed Asner, Jordan Nagai",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 13, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 374,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "pather-panchali-la-cancion-del-camino-1955",
+      "link": "https://www.imdb.com/title/tt0048473/",
+      "place": 124,
+      "year": 1955,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDE5YmMxYjEtZjNjNC00NjM2LWE2ZjctOTkyNGMxODRiMGNiXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Pather Panchali (La canción del camino)",
+      "reparto": "Satyajit Ray (dir.), Kanu Bannerjee, Karuna Bannerjee",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 375,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "indiana-jones-y-la-ultima-cruzada-1989",
+      "link": "https://www.imdb.com/title/tt0097576/",
+      "place": 125,
+      "year": 1989,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Indiana Jones y la última cruzada",
+      "reparto": "Steven Spielberg (dir.), Harrison Ford, Sean Connery",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 376,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "heat-1995",
+      "link": "https://www.imdb.com/title/tt0113277/",
+      "place": 126,
+      "year": 1995,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGMwNzUwNjYtZWM5NS00YzMyLWI4NjAtNjM0ZDBiMzE1YWExXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Heat",
+      "reparto": "Michael Mann (dir.), Al Pacino, Robert De Niro",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 3]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 377,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "la-confidential-1997",
+      "link": "https://www.imdb.com/title/tt0119488/",
+      "place": 127,
+      "year": 1997,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDQ2YzEyZGItYWRhOS00MjBmLTkzMDUtMTdjYzkyMmQxZTJlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "L.A. Confidential",
+      "reparto": "Curtis Hanson (dir.), Kevin Spacey, Russell Crowe",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 378,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "ran-1985",
+      "link": "https://www.imdb.com/title/tt0089881/",
+      "place": 128,
+      "year": 1985,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNTEyNjg0MDM4OF5BMl5BanBnXkFtZTgwODI0NjUxODE@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Ran",
+      "reparto": "Akira Kurosawa (dir.), Tatsuya Nakadai, Akira Terao",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 379,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "yojimbo-1961",
+      "link": "https://www.imdb.com/title/tt0055630/",
+      "place": 129,
+      "year": 1961,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZThiZjAzZjgtNDU3MC00YThhLThjYWUtZGRkYjc2ZWZlOTVjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Yojimbo",
+      "reparto": "Akira Kurosawa (dir.), Toshirô Mifune, Eijirô Tôno",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 380,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "jungla-de-cristal-1988",
+      "link": "https://www.imdb.com/title/tt0095016/",
+      "place": 130,
+      "year": 1988,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZjRlNDUxZjAtOGQ4OC00OTNlLTgxNmQtYTBmMDgwZmNmNjkxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Jungla de cristal",
+      "reparto": "John McTiernan (dir.), Bruce Willis, Alan Rickman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 381,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "green-book-2018",
+      "link": "https://www.imdb.com/title/tt6966692/",
+      "place": 131,
+      "year": 2018,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYzIzYmJlYTYtNGNiYy00N2EwLTk4ZjItMGYyZTJiOTVkM2RlXkEyXkFqcGdeQXVyODY1NDk1NjE@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Green Book",
+      "reparto": "Peter Farrelly (dir.), Viggo Mortensen, Mahershala Ali",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 382,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "rashomon-1950",
+      "link": "https://www.imdb.com/title/tt0042876/",
+      "place": 132,
+      "year": 1950,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjEzMzA4NDE2OF5BMl5BanBnXkFtZTcwNTc5MDI2NQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Rashomon",
+      "reparto": "Akira Kurosawa (dir.), Toshirô Mifune, Machiko Kyô",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 383,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "el-hundimiento-2004",
+      "link": "https://www.imdb.com/title/tt0363163/",
+      "place": 133,
+      "year": 2004,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTU0NTU5NTAyMl5BMl5BanBnXkFtZTYwNzYwMDg2._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El hundimiento",
+      "reparto": "Oliver Hirschbiegel (dir.), Bruno Ganz, Alexandra Maria Lara",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 5]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 384,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "eva-al-desnudo-1950",
+      "link": "https://www.imdb.com/title/tt0042192/",
+      "place": 134,
+      "year": 1950,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTY2MTAzODI5NV5BMl5BanBnXkFtZTgwMjM4NzQ0MjE@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Eva al desnudo",
+      "reparto": "Joseph L. Mankiewicz (dir.), Bette Davis, Anne Baxter",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 385,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "los-caballeros-de-la-mesa-cuadrada-y-sus-locos-seguidores-1975",
+      "link": "https://www.imdb.com/title/tt0071853/",
+      "place": 135,
+      "year": 1975,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BN2IyNTE4YzUtZWU0Mi00MGIwLTgyMmQtMzQ4YzQxYWNlYWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Los caballeros de la mesa cuadrada y sus locos seguidores",
+      "reparto": "Terry Gilliam (dir.), Graham Chapman, John Cleese",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 10, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 386,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "con-faldas-y-a-lo-loco-1959",
+      "link": "https://www.imdb.com/title/tt0053291/",
+      "place": 136,
+      "year": 1959,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzAyOGIxYjAtMGY2NC00ZTgyLWIwMWEtYzY0OWQ4NDFjOTc5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Con faldas y a lo loco",
+      "reparto": "Billy Wilder (dir.), Marilyn Monroe, Tony Curtis",
+      "resumen": "",
+      "duracion": "",
+      "generos": [8, 13, 18]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 387,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "batman-begins-2005",
+      "link": "https://www.imdb.com/title/tt0372784/",
+      "place": 137,
+      "year": 2005,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Batman Begins",
+      "reparto": "Christopher Nolan (dir.), Christian Bale, Michael Caine",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 3]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 388,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "sin-perdon-1992",
+      "link": "https://www.imdb.com/title/tt0105695/",
+      "place": 138,
+      "year": 1992,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BODM3YWY4NmQtN2Y3Ni00OTg0LWFhZGQtZWE3ZWY4MTJlOWU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Sin perdón",
+      "reparto": "Clint Eastwood (dir.), Clint Eastwood, Gene Hackman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 7]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 389,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "children-of-heaven-1997",
+      "link": "https://www.imdb.com/title/tt0118849/",
+      "place": 139,
+      "year": 1997,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZTYwZWQ4ZTQtZWU0MS00N2YwLWEzMDItZWFkZWY0MWVjODVhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Children of Heaven",
+      "reparto": "Majid Majidi (dir.), Mohammad Amir Naji, Amir Farrokh Hashemian",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 14, 21]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 390,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "jai-bhim-2021",
+      "link": "https://www.imdb.com/title/tt15097216/",
+      "place": 140,
+      "year": 2021,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BY2Y5ZWMwZDgtZDQxYy00Mjk0LThhY2YtMmU1MTRmMjVhMjRiXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_UY67_CR4,0,45,67_AL_.jpg",
+      "title": "Jai Bhim",
+      "reparto": "T.J. Gnanavel (dir.), Suriya, Lijo Mol Jose",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 391,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "el-castillo-ambulante-2004",
+      "link": "https://www.imdb.com/title/tt0347149/",
+      "place": 141,
+      "year": 2004,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNmM4YTFmMmItMGE3Yy00MmRkLTlmZGEtMzZlOTQzYjk3MzA2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El castillo ambulante",
+      "reparto": "Hayao Miyazaki (dir.), Chieko Baishô, Takuya Kimura",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 14, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 392,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "el-lobo-de-wall-street-2013",
+      "link": "https://www.imdb.com/title/tt0993846/",
+      "place": 142,
+      "year": 2013,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El lobo de Wall Street",
+      "reparto": "Martin Scorsese (dir.), Leonardo DiCaprio, Jonah Hill",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 4, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 393,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "vencedores-o-vencidos-1961",
+      "link": "https://www.imdb.com/title/tt0055031/",
+      "place": 143,
+      "year": 1961,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDc2ODQ5NTE2MV5BMl5BanBnXkFtZTcwODExMjUyNA@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Vencedores o vencidos",
+      "reparto": "Stanley Kramer (dir.), Spencer Tracy, Burt Lancaster",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 394,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "pozos-de-ambicion-2007",
+      "link": "https://www.imdb.com/title/tt0469494/",
+      "place": 144,
+      "year": 2007,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Pozos de ambición",
+      "reparto": "Paul Thomas Anderson (dir.), Daniel Day-Lewis, Paul Dano",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 395,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "la-gran-evasion-1963",
+      "link": "https://www.imdb.com/title/tt0057115/",
+      "place": 145,
+      "year": 1963,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzA2NmYxMWUtNzBlMC00MWM2LTkwNmQtYTFlZjQwODNhOWE0XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La gran evasión",
+      "reparto": "John Sturges (dir.), Steve McQueen, James Garner",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 5, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 396,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "casino-1995",
+      "link": "https://www.imdb.com/title/tt0112641/",
+      "place": 146,
+      "year": 1995,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTcxOWYzNDYtYmM4YS00N2NkLTk0NTAtNjg1ODgwZjAxYzI3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Casino",
+      "reparto": "Martin Scorsese (dir.), Robert De Niro, Sharon Stone",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 397,
+    "fields": {
+      "rating": "8.2000",
+      "slug": "el-tesoro-de-sierra-madre-1948",
+      "link": "https://www.imdb.com/title/tt0040897/",
+      "place": 147,
+      "year": 1948,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTJlZWMxYzEtMjlkMS00ODE0LThlM2ItMDI3NGQ2YjhmMzkxXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El tesoro de Sierra Madre",
+      "reparto": "John Huston (dir.), Humphrey Bogart, Walter Huston",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 6, 7]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 398,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-laberinto-del-fauno-2006",
+      "link": "https://www.imdb.com/title/tt0457430/",
+      "place": 148,
+      "year": 2006,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzJlMjI2NjEtY2FmNy00ZTE0LWJjYWEtZDg0YmY1ZDBlNmEyXkEyXkFqcGdeQXVyOTI5NTk5NTQ@._V1_UY67_CR4,0,45,67_AL_.jpg",
+      "title": "El laberinto del fauno",
+      "reparto": "Guillermo del Toro (dir.), Ivana Baquero, Ariadna Gil",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 10, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 399,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "una-mente-maravillosa-2001",
+      "link": "https://www.imdb.com/title/tt0268978/",
+      "place": 149,
+      "year": 2001,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMzcwYWFkYzktZjAzNC00OGY1LWI4YTgtNzc5MzVjMDVmNjY0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Una mente maravillosa",
+      "reparto": "Ron Howard (dir.), Russell Crowe, Ed Harris",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 400,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-secreto-de-sus-ojos-2009",
+      "link": "https://www.imdb.com/title/tt1305806/",
+      "place": 150,
+      "year": 2009,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BY2FhZGI5M2QtZWFiZS00NjkwLWE4NWQtMzg3ZDZjNjdkYTJiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El secreto de sus ojos",
+      "reparto": "Juan José Campanella (dir.), Ricardo Darín, Soledad Villamil",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 401,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "toro-salvaje-1980",
+      "link": "https://www.imdb.com/title/tt0081398/",
+      "place": 151,
+      "year": 1980,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYjRmODkzNDItMTNhNi00YjJlLTg0ZjAtODlhZTM0YzgzYThlXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Toro salvaje",
+      "reparto": "Martin Scorsese (dir.), Robert De Niro, Cathy Moriarty",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 21]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 402,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "chinatown-1974",
+      "link": "https://www.imdb.com/title/tt0071315/",
+      "place": 152,
+      "year": 1974,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOGMwYmY5ZmEtMzY1Yi00OWJiLTk1Y2MtMzI2MjBhYmZkNTQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Chinatown",
+      "reparto": "Roman Polanski (dir.), Jack Nicholson, Faye Dunaway",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 403,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "mi-vecino-totoro-1988",
+      "link": "https://www.imdb.com/title/tt0096283/",
+      "place": 153,
+      "year": 1988,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYzJjMTYyMjQtZDI0My00ZjE2LTkyNGYtOTllNGQxNDMyZjE0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Mi vecino Totoro",
+      "reparto": "Hayao Miyazaki (dir.), Hitoshi Takagi, Noriko Hidaka",
+      "resumen": "",
+      "duracion": "",
+      "generos": [13, 14, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 404,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "shutter-island-2010",
+      "link": "https://www.imdb.com/title/tt1130884/",
+      "place": 154,
+      "year": 2010,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Shutter Island",
+      "reparto": "Martin Scorsese (dir.), Leonardo DiCaprio, Emily Mortimer",
+      "resumen": "",
+      "duracion": "",
+      "generos": [11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 405,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "lock-stock-1998",
+      "link": "https://www.imdb.com/title/tt0120735/",
+      "place": 155,
+      "year": 1998,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Lock & Stock",
+      "reparto": "Guy Ritchie (dir.), Jason Flemyng, Dexter Fletcher",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 3, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 406,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "no-es-pais-para-viejos-2007",
+      "link": "https://www.imdb.com/title/tt0477348/",
+      "place": 156,
+      "year": 2007,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "No es país para viejos",
+      "reparto": "Ethan Coen (dir.), Tommy Lee Jones, Javier Bardem",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 407,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "klaus-2019",
+      "link": "https://www.imdb.com/title/tt4729430/",
+      "place": 157,
+      "year": 2019,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMWYwOThjM2ItZGYxNy00NTQwLWFlZWEtM2MzM2Q5MmY3NDU5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Klaus",
+      "reparto": "Sergio Pablos (dir.), Jason Schwartzman, J.K. Simmons",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 13, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 408,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "crimen-perfecto-1954",
+      "link": "https://www.imdb.com/title/tt0046912/",
+      "place": 158,
+      "year": 1954,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOWIwODIxYWItZDI4MS00YzhhLWE3MmYtMzlhZDIwOTMzZmE5L2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Crimen perfecto",
+      "reparto": "Alfred Hitchcock (dir.), Ray Milland, Grace Kelly",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 409,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "la-quimera-del-oro-1925",
+      "link": "https://www.imdb.com/title/tt0015864/",
+      "place": 159,
+      "year": 1925,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZjEyOTE4MzMtNmMzMy00Mzc3LWJlOTQtOGJiNDE0ZmJiOTU4L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY67_CR2,0,45,67_AL_.jpg",
+      "title": "La quimera del oro",
+      "reparto": "Charles Chaplin (dir.), Charles Chaplin, Mack Swain",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 6, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 410,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "la-cosa-1982",
+      "link": "https://www.imdb.com/title/tt0084787/",
+      "place": 160,
+      "year": 1982,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La cosa",
+      "reparto": "John Carpenter (dir.), Kurt Russell, Wilford Brimley",
+      "resumen": "",
+      "duracion": "",
+      "generos": [9, 11, 12]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 411,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "tres-anuncios-en-las-afueras-2017",
+      "link": "https://www.imdb.com/title/tt5027774/",
+      "place": 161,
+      "year": 2017,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjI0ODcxNzM1N15BMl5BanBnXkFtZTgwMzIwMTEwNDI@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Tres anuncios en las afueras",
+      "reparto": "Martin McDonagh (dir.), Frances McDormand, Woody Harrelson",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 412,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-septimo-sello-1957",
+      "link": "https://www.imdb.com/title/tt0050976/",
+      "place": 162,
+      "year": 1957,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BM2I1ZWU4YjMtYzU0My00YmMzLWFmNTAtZDJhZGYwMmI3YWQ5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El séptimo sello",
+      "reparto": "Ingmar Bergman (dir.), Max von Sydow, Gunnar Björnstrand",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 5, 10]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 413,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "dersu-uzala-el-cazador-1975",
+      "link": "https://www.imdb.com/title/tt0071411/",
+      "place": 163,
+      "year": 1975,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYWY0OWJlZTgtMWUzNy00MGJhLTk5YzQtNmY5MDEwOTIxNjMyXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Dersu Uzala (El cazador)",
+      "reparto": "Akira Kurosawa (dir.), Maksim Munzuk, Yuriy Solomin",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 414,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-hombre-elefante-1980",
+      "link": "https://www.imdb.com/title/tt0080678/",
+      "place": 164,
+      "year": 1980,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDVjNjIwOGItNDE3Ny00OThjLWE0NzQtZTU3YjMzZTZjMzhkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El hombre elefante",
+      "reparto": "David Lynch (dir.), Anthony Hopkins, John Hurt",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 415,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-sexto-sentido-1999",
+      "link": "https://www.imdb.com/title/tt0167404/",
+      "place": 165,
+      "year": 1999,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMWM4NTFhYjctNzUyNi00NGMwLTk3NTYtMDIyNTZmMzRlYmQyXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El sexto sentido",
+      "reparto": "M. Night Shyamalan (dir.), Bruce Willis, Haley Joel Osment",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 416,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-show-de-truman-1998",
+      "link": "https://www.imdb.com/title/tt0120382/",
+      "place": 166,
+      "year": 1998,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El show de Truman",
+      "reparto": "Peter Weir (dir.), Jim Carrey, Ed Harris",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 417,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "jurassic-park-parque-jurasico-1993",
+      "link": "https://www.imdb.com/title/tt0107290/",
+      "place": 167,
+      "year": 1993,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Jurassic Park (Parque Jurásico)",
+      "reparto": "Steven Spielberg (dir.), Sam Neill, Laura Dern",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 418,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "fresas-salvajes-1957",
+      "link": "https://www.imdb.com/title/tt0050986/",
+      "place": 168,
+      "year": 1957,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZjJhNTBmNTgtMDViOC00NDY2LWE4N2ItMDJiM2ZiYmQzYzliXkEyXkFqcGdeQXVyMzg1ODEwNQ@@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Fresas salvajes",
+      "reparto": "Ingmar Bergman (dir.), Victor Sjöström, Bibi Andersson",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 419,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-tercer-hombre-1949",
+      "link": "https://www.imdb.com/title/tt0041959/",
+      "place": 169,
+      "year": 1949,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BY2Y3OGIwNTgtYTlmMy00MDg0LWE4MTQtZDE2ODQ3ZThmNGYwXkEyXkFqcGdeQXVyNDQzMDg4Nzk@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El tercer hombre",
+      "reparto": "Carol Reed (dir.), Orson Welles, Joseph Cotten",
+      "resumen": "",
+      "duracion": "",
+      "generos": [11, 17, 19]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 420,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "memories-of-murder-cronica-de-un-asesino-en-serie-2003",
+      "link": "https://www.imdb.com/title/tt0353969/",
+      "place": 170,
+      "year": 2003,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOGViNTg4YTktYTQ2Ni00MTU0LTk2NWUtMTI4OTc1YTM0NzQ2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Memories of Murder (Crónica de un asesino en serie)",
+      "reparto": "Bong Joon Ho (dir.), Kang-ho Song, Kim Sang-kyung",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 421,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "v-de-vendetta-2005",
+      "link": "https://www.imdb.com/title/tt0434409/",
+      "place": 171,
+      "year": 2005,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "V de Vendetta",
+      "reparto": "James McTeigue (dir.), Hugo Weaving, Natalie Portman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 422,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "blade-runner-1982",
+      "link": "https://www.imdb.com/title/tt0083658/",
+      "place": 172,
+      "year": 1982,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Blade Runner",
+      "reparto": "Ridley Scott (dir.), Harrison Ford, Rutger Hauer",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 423,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "trainspotting-1996",
+      "link": "https://www.imdb.com/title/tt0117951/",
+      "place": 173,
+      "year": 1996,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMzA5Zjc3ZTMtMmU5YS00YTMwLWI4MWUtYTU0YTVmNjVmODZhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Trainspotting",
+      "reparto": "Danny Boyle (dir.), Ewan McGregor, Ewen Bremner",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 424,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "fargo-1996",
+      "link": "https://www.imdb.com/title/tt0116282/",
+      "place": 174,
+      "year": 1996,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDJiZDgyZjctYmRjMS00ZjdkLTkwMTEtNGU1NDg3NDQ0Yzk1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Fargo",
+      "reparto": "Joel Coen (dir.), William H. Macy, Frances McDormand",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 425,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-puente-sobre-el-rio-kwai-1957",
+      "link": "https://www.imdb.com/title/tt0050212/",
+      "place": 175,
+      "year": 1957,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOGY5NmNlMmQtYzRlYy00NGQ5LWFkYjYtNzExZmQyMTg0ZDA0XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El puente sobre el río Kwai",
+      "reparto": "David Lean (dir.), William Holden, Alec Guinness",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 6, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 426,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "del-reves-inside-out-2015",
+      "link": "https://www.imdb.com/title/tt2096673/",
+      "place": 176,
+      "year": 2015,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Del revés (Inside Out)",
+      "reparto": "Pete Docter (dir.), Amy Poehler, Bill Hader",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 13, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 427,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "buscando-a-nemo-2003",
+      "link": "https://www.imdb.com/title/tt0266543/",
+      "place": 177,
+      "year": 2003,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZTAzNWZlNmUtZDEzYi00ZjA5LWIwYjEtZGM1NWE1MjE4YWRhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Buscando a Nemo",
+      "reparto": "Andrew Stanton (dir.), Albert Brooks, Ellen DeGeneres",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 13, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 428,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "kill-bill-volumen-1-2003",
+      "link": "https://www.imdb.com/title/tt0266697/",
+      "place": 178,
+      "year": 2003,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Kill Bill: Volumen 1",
+      "reparto": "Quentin Tarantino (dir.), Uma Thurman, David Carradine",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 3]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 429,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "warrior-2011",
+      "link": "https://www.imdb.com/title/tt1291584/",
+      "place": 179,
+      "year": 2011,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTk4ODk5MTMyNV5BMl5BanBnXkFtZTcwMDMyNTg0Ng@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Warrior",
+      "reparto": "Gavin O'Connor (dir.), Tom Hardy, Nick Nolte",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 21]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 430,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "lo-que-el-viento-se-llevo-1939",
+      "link": "https://www.imdb.com/title/tt0031381/",
+      "place": 180,
+      "year": 1939,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYjUyZWZkM2UtMzYxYy00ZmQ3LWFmZTQtOGE2YjBkNjA3YWZlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Lo que el viento se llevó",
+      "reparto": "Victor Fleming (dir.), Clark Gable, Vivien Leigh",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 5, 8]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 431,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "cuentos-de-tokio-1953",
+      "link": "https://www.imdb.com/title/tt0046438/",
+      "place": 181,
+      "year": 1953,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYWQ4ZTRiODktNjAzZC00Nzg1LTk1YWQtNDFmNDI0NmZiNGIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Cuentos de Tokio",
+      "reparto": "Yasujirô Ozu (dir.), Chishû Ryû, Chieko Higashiyama",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 432,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "la-ley-del-silencio-1954",
+      "link": "https://www.imdb.com/title/tt0047296/",
+      "place": 182,
+      "year": 1954,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BY2I0MWFiZDMtNWQyYy00Njk5LTk3MDktZjZjNTNmZmVkYjkxXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La ley del silencio",
+      "reparto": "Elia Kazan (dir.), Marlon Brando, Karl Malden",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 433,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "mi-padre-y-mi-hijo-2005",
+      "link": "https://www.imdb.com/title/tt0476735/",
+      "place": 183,
+      "year": 2005,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNjAzMzEwYzctNjc1MC00Nzg5LWFmMGItMTgzYmMyNTY2OTQ4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Mi padre y mi hijo",
+      "reparto": "Cagan Irmak (dir.), Eser Sariyar, Çetin Tekindor",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 14]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 434,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "relatos-salvajes-2014",
+      "link": "https://www.imdb.com/title/tt3011894/",
+      "place": 184,
+      "year": 2014,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGQzY2Y0MTgtMDA4OC00NjM3LWI0ZGQtNTJlM2UxZDQxZjI0XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Relatos salvajes",
+      "reparto": "Damián Szifron (dir.), Darío Grandinetti, María Marull",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 435,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "prisioneros-2013",
+      "link": "https://www.imdb.com/title/tt1392214/",
+      "place": 185,
+      "year": 2013,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Prisioneros",
+      "reparto": "Denis Villeneuve (dir.), Hugh Jackman, Jake Gyllenhaal",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 436,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "stalker-1979",
+      "link": "https://www.imdb.com/title/tt0079944/",
+      "place": 186,
+      "year": 1979,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDgwODNmMGItMDcwYi00OWZjLTgyZjAtMGYwMmI4N2Q0NmJmXkEyXkFqcGdeQXVyNzY1MTU0Njk@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Stalker",
+      "reparto": "Andrei Tarkovsky (dir.), Alisa Freyndlikh, Aleksandr Kaydanovskiy",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 437,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-gran-hotel-budapest-2014",
+      "link": "https://www.imdb.com/title/tt2278388/",
+      "place": 187,
+      "year": 2014,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El gran hotel Budapest",
+      "reparto": "Wes Anderson (dir.), Ralph Fiennes, F. Murray Abraham",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 6, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 438,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-cazador-1978",
+      "link": "https://www.imdb.com/title/tt0077416/",
+      "place": 188,
+      "year": 1978,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDhmNTA0ZDMtYjhkNS00NzEzLWIzYTItOGNkMTVmYjE2YmI3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El cazador",
+      "reparto": "Michael Cimino (dir.), Robert De Niro, Christopher Walken",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 439,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-maquinista-de-la-general-1926",
+      "link": "https://www.imdb.com/title/tt0017925/",
+      "place": 189,
+      "year": 1926,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYmRiMDFlYjYtOTMwYy00OGY2LWE0Y2QtYzQxOGNhZmUwNTIxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El maquinista de La General",
+      "reparto": "Clyde Bruckman (dir.), Buster Keaton, Marion Mack",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 440,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-moderno-sherlock-holmes-1924",
+      "link": "https://www.imdb.com/title/tt0015324/",
+      "place": 190,
+      "year": 1924,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZWFhOGU5NDctY2Q3YS00Y2VlLWI1NzEtZmIwY2ZiZjY4OTA2XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El moderno Sherlock Holmes",
+      "reparto": "Buster Keaton (dir.), Buster Keaton, Kathryn McGuire",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 8, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 441,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "gran-torino-2008",
+      "link": "https://www.imdb.com/title/tt1205489/",
+      "place": 191,
+      "year": 2008,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTc5NTk2OTU1Nl5BMl5BanBnXkFtZTcwMDc3NjAwMg@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Gran Torino",
+      "reparto": "Clint Eastwood (dir.), Clint Eastwood, Bee Vang",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 442,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "persona-1966",
+      "link": "https://www.imdb.com/title/tt0060827/",
+      "place": 192,
+      "year": 1966,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTM0YzExY2EtMjUyZi00ZmIwLWFkYTktNjY5NmVkYTdkMjI5XkEyXkFqcGdeQXVyNzQxNDExNTU@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Persona",
+      "reparto": "Ingmar Bergman (dir.), Bibi Andersson, Liv Ullmann",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 443,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "antes-de-amanecer-1995",
+      "link": "https://www.imdb.com/title/tt0112471/",
+      "place": 193,
+      "year": 1995,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZDdiZTAwYzAtMDI3Ni00OTRjLTkzN2UtMGE3MDMyZmU4NTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Antes de amanecer",
+      "reparto": "Richard Linklater (dir.), Ethan Hawke, Julie Delpy",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 444,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "mary-and-max-2009",
+      "link": "https://www.imdb.com/title/tt0978762/",
+      "place": 194,
+      "year": 2009,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDgzYjQwMDMtNGUzYi00MTRmLWIyMGMtNjE1OGZkNzY2YWIzL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Mary and Max",
+      "reparto": "Adam Elliot (dir.), Toni Collette, Philip Seymour Hoffman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 445,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "atrapame-si-puedes-2002",
+      "link": "https://www.imdb.com/title/tt0264464/",
+      "place": 195,
+      "year": 2002,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Atrápame si puedes",
+      "reparto": "Steven Spielberg (dir.), Leonardo DiCaprio, Tom Hanks",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 4]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 446,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "dune-2021",
+      "link": "https://www.imdb.com/title/tt1160419/",
+      "place": 196,
+      "year": 2021,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Dune",
+      "reparto": "Denis Villeneuve (dir.), Timothée Chalamet, Rebecca Ferguson",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 447,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "caballero-sin-espada-1939",
+      "link": "https://www.imdb.com/title/tt0031679/",
+      "place": 197,
+      "year": 1939,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZTYwYjYxYzgtMDE1Ni00NzU4LWJlMTEtODQ5YmJmMGJhZjI5L2ltYWdlXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Caballero sin espada",
+      "reparto": "Frank Capra (dir.), James Stewart, Jean Arthur",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 448,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "barry-lyndon-1975",
+      "link": "https://www.imdb.com/title/tt0072684/",
+      "place": 198,
+      "year": 1975,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNmY0MWY2NDctZDdmMi00MjA1LTk0ZTQtZDMyZTQ1NTNlYzVjXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Barry Lyndon",
+      "reparto": "Stanley Kubrick (dir.), Ryan O'Neal, Marisa Berenson",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 5, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 449,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "en-el-nombre-del-padre-1993",
+      "link": "https://www.imdb.com/title/tt0107207/",
+      "place": 199,
+      "year": 1993,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMmYyOTgwYWItYmU3Ny00M2E2LTk0NWMtMDVlNmQ0MWZiMTMxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "En el nombre del padre",
+      "reparto": "Jim Sheridan (dir.), Daniel Day-Lewis, Pete Postlethwaite",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 4]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 450,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "z-1969",
+      "link": "https://www.imdb.com/title/tt0065234/",
+      "place": 200,
+      "year": 1969,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDQ4ZTI5NTktOTY2ZS00NmM3LWE2ZTAtMTdjNzFmOWYzYzhkXkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Z",
+      "reparto": "Costa-Gavras (dir.), Yves Montand, Irene Papas",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 5]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 451,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "hasta-el-ultimo-hombre-2016",
+      "link": "https://www.imdb.com/title/tt2119532/",
+      "place": 201,
+      "year": 2016,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Hasta el último hombre",
+      "reparto": "Mel Gibson (dir.), Andrew Garfield, Sam Worthington",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 5]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 452,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "perdida-2014",
+      "link": "https://www.imdb.com/title/tt2267998/",
+      "place": 202,
+      "year": 2014,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Perdida",
+      "reparto": "David Fincher (dir.), Ben Affleck, Rosamund Pike",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 11, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 453,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "la-habitacion-2015",
+      "link": "https://www.imdb.com/title/tt3170832/",
+      "place": 203,
+      "year": 2015,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjE4NzgzNzEwMl5BMl5BanBnXkFtZTgwMTMzMDE0NjE@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "La habitación",
+      "reparto": "Lenny Abrahamson (dir.), Brie Larson, Jacob Tremblay",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 454,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "la-pasion-de-juana-de-arco-1928",
+      "link": "https://www.imdb.com/title/tt0019254/",
+      "place": 204,
+      "year": 1928,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNjBjNDJiYTUtOWY0OS00OGVmLTg2YzctMTE0NzVhODM1ZWJmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La pasión de Juana de Arco",
+      "reparto": "Carl Theodor Dreyer (dir.), Maria Falconetti, Eugene Silvain",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 5]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 455,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "andhadhun-2018",
+      "link": "https://www.imdb.com/title/tt8108198/",
+      "place": 205,
+      "year": 2018,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZWZhMjhhZmYtOTIzOC00MGYzLWI1OGYtM2ZkN2IxNTI4ZWI3XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Andhadhun",
+      "reparto": "Sriram Raghavan (dir.), Ayushmann Khurrana, Tabu",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 13, 18]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 456,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "le-mans-66-2019",
+      "link": "https://www.imdb.com/title/tt1950186/",
+      "place": 206,
+      "year": 2019,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BM2UwMDVmMDItM2I2Yi00NGZmLTk4ZTUtY2JjNTQ3OGQ5ZjM2XkEyXkFqcGdeQXVyMTA1OTYzOTUx._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Le Mans '66",
+      "reparto": "James Mangold (dir.), Matt Damon, Christian Bale",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 4]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 457,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "12-anos-de-esclavitud-2013",
+      "link": "https://www.imdb.com/title/tt2024544/",
+      "place": 207,
+      "year": 2013,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "12 años de esclavitud",
+      "reparto": "Steve McQueen (dir.), Chiwetel Ejiofor, Michael Kenneth Williams",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 5]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 458,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "ser-o-no-ser-1942",
+      "link": "https://www.imdb.com/title/tt0035446/",
+      "place": 208,
+      "year": 1942,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYTIwNDcyMjktMTczMy00NDM5LTlhNDEtMmE3NGVjOTM2YjQ3XkEyXkFqcGdeQXVyNjc0MzMzNjA@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Ser o no ser",
+      "reparto": "Ernst Lubitsch (dir.), Carole Lombard, Jack Benny",
+      "resumen": "",
+      "duracion": "",
+      "generos": [8, 13, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 459,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-gran-lebowski-1998",
+      "link": "https://www.imdb.com/title/tt0118715/",
+      "place": 209,
+      "year": 1998,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTQ0NjUzMDMyOF5BMl5BanBnXkFtZTgwODA1OTU0MDE@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "El gran Lebowski",
+      "reparto": "Joel Coen (dir.), Jeff Bridges, John Goodman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 13, 21]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 460,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-club-de-los-poetas-muertos-1989",
+      "link": "https://www.imdb.com/title/tt0097165/",
+      "place": 210,
+      "year": 1989,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOGYwYWNjMzgtNGU4ZC00NWQ2LWEwZjUtMzE1Zjc3NjY3YTU1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El club de los poetas muertos",
+      "reparto": "Peter Weir (dir.), Robin Williams, Robert Sean Leonard",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 461,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "harry-potter-y-las-reliquias-de-la-muerte-parte-2-2011",
+      "link": "https://www.imdb.com/title/tt1201607/",
+      "place": 211,
+      "year": 2011,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Harry Potter y las Reliquias de la Muerte - Parte 2",
+      "reparto": "David Yates (dir.), Daniel Radcliffe, Emma Watson",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 10, 11]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 462,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "ben-hur-1959",
+      "link": "https://www.imdb.com/title/tt0052618/",
+      "place": 212,
+      "year": 1959,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNjgxY2JiZDYtZmMwOC00ZmJjLWJmODUtMTNmNWNmYWI5ODkwL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Ben-Hur",
+      "reparto": "William Wyler (dir.), Charlton Heston, Jack Hawkins",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 5, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 463,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "como-entrenar-a-tu-dragon-2010",
+      "link": "https://www.imdb.com/title/tt0892769/",
+      "place": 213,
+      "year": 2010,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Cómo entrenar a tu dragón",
+      "reparto": "Dean DeBlois (dir.), Jay Baruchel, Gerard Butler",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 464,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "mad-max-furia-en-la-carretera-2015",
+      "link": "https://www.imdb.com/title/tt1392190/",
+      "place": 214,
+      "year": 2015,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Mad Max: Furia en la carretera",
+      "reparto": "George Miller (dir.), Tom Hardy, Charlize Theron",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 465,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "sonata-de-otono-1978",
+      "link": "https://www.imdb.com/title/tt0077711/",
+      "place": 215,
+      "year": 1978,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNGIyMWRlYTctMWNlMi00ZGIzLThjOTgtZjQzZjRjNmRhMDdlXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Sonata de otoño",
+      "reparto": "Ingmar Bergman (dir.), Ingrid Bergman, Liv Ullmann",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 18]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 466,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "million-dollar-baby-2004",
+      "link": "https://www.imdb.com/title/tt0405159/",
+      "place": 216,
+      "year": 2004,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Million Dollar Baby",
+      "reparto": "Clint Eastwood (dir.), Hilary Swank, Clint Eastwood",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 21]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 467,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-salario-del-miedo-1953",
+      "link": "https://www.imdb.com/title/tt0046268/",
+      "place": 217,
+      "year": 1953,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZDdkNzMwZmUtY2Q5MS00ZmM2LWJhYjItYTBjMWY0MGM4MDRjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "El salario del miedo",
+      "reparto": "Henri-Georges Clouzot (dir.), Yves Montand, Charles Vanel",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 6, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 468,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "cuenta-conmigo-1986",
+      "link": "https://www.imdb.com/title/tt0092005/",
+      "place": 218,
+      "year": 1986,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BODJmY2Y2OGQtMDg2My00N2Q3LWJmZTUtYTc2ODBjZDVlNDlhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Cuenta conmigo",
+      "reparto": "Rob Reiner (dir.), Wil Wheaton, River Phoenix",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 469,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "network-un-mundo-implacable-1976",
+      "link": "https://www.imdb.com/title/tt0074958/",
+      "place": 219,
+      "year": 1976,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGNjYjM2MzItZGQzZi00NmY3LTgxOGUtMTQ2MWQxNWQ2MmMwXkEyXkFqcGdeQXVyNzM0MTUwNTY@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Network, un mundo implacable",
+      "reparto": "Sidney Lumet (dir.), Faye Dunaway, William Holden",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 470,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "la-doncella-2016",
+      "link": "https://www.imdb.com/title/tt4016934/",
+      "place": 220,
+      "year": 2016,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDJhYTk2MTctZmVmOS00OTViLTgxNjQtMzQxOTRiMDdmNGRjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "La doncella",
+      "reparto": "Park Chan-wook (dir.), Kim Min-hee, Ha Jung-woo",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 471,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "logan-2017",
+      "link": "https://www.imdb.com/title/tt3315342/",
+      "place": 221,
+      "year": 2017,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYzc5MTU4N2EtYTkyMi00NjdhLTg3NWEtMTY4OTEyMzJhZTAzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Logan",
+      "reparto": "James Mangold (dir.), Hugh Jackman, Patrick Stewart",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 9]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 472,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "el-odio-1995",
+      "link": "https://www.imdb.com/title/tt0113247/",
+      "place": 222,
+      "year": 1995,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNDNiOTA5YjktY2Q0Ni00ODgzLWE5MWItNGExOWRlYjY2MjBlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "El odio",
+      "reparto": "Mathieu Kassovitz (dir.), Vincent Cassel, Hubert Koundé",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 473,
+    "fields": {
+      "rating": "8.1000",
+      "slug": "a-silent-voice-2016",
+      "link": "https://www.imdb.com/title/tt5323662/",
+      "place": 223,
+      "year": 2016,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGRkOGMxYTUtZTBhYS00NzI3LWEzMDQtOWRhMmNjNjJjMzM4XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "A Silent Voice",
+      "reparto": "Naoko Yamada (dir.), Miyu Irino, Saori Hayami",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 474,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "la-leyenda-del-indomable-1967",
+      "link": "https://www.imdb.com/title/tt0061512/",
+      "place": 224,
+      "year": 1967,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOWFlNzZhYmYtYTI5YS00MDQyLWIyNTUtNTRjMWUwNTEzNjA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La leyenda del indomable",
+      "reparto": "Stuart Rosenberg (dir.), Paul Newman, George Kennedy",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 475,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "siempre-a-tu-lado-hachiko-2009",
+      "link": "https://www.imdb.com/title/tt1028532/",
+      "place": 225,
+      "year": 2009,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNzE4NDg5OWMtMzg3NC00ZDRjLTllMDMtZTRjNWZmNjBmMGZlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Siempre a tu lado (Hachiko)",
+      "reparto": "Lasse Hallström (dir.), Richard Gere, Joan Allen",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 14]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 476,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "gangs-of-wasseypur-2012",
+      "link": "https://www.imdb.com/title/tt1954470/",
+      "place": 226,
+      "year": 2012,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTc5NjY4MjUwNF5BMl5BanBnXkFtZTgwODM3NzM5MzE@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Gangs of Wasseypur",
+      "reparto": "Anurag Kashyap (dir.), Manoj Bajpayee, Richa Chadha",
+      "resumen": "",
+      "duracion": "",
+      "generos": [2, 3, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 477,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "los-cuatrocientos-golpes-1959",
+      "link": "https://www.imdb.com/title/tt0053198/",
+      "place": 227,
+      "year": 1959,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYTQ4MjA4NmYtYjRhNi00MTEwLTg0NjgtNjk3ODJlZGU4NjRkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR2,0,45,67_AL_.jpg",
+      "title": "Los cuatrocientos golpes",
+      "reparto": "François Truffaut (dir.), Jean-Pierre Léaud, Albert Rémy",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 478,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "platoon-1986",
+      "link": "https://www.imdb.com/title/tt0091763/",
+      "place": 228,
+      "year": 1986,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNTU3NzY4ODY5MF5BMl5BanBnXkFtZTcwOTkzNzE1NA@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Platoon",
+      "reparto": "Oliver Stone (dir.), Charlie Sheen, Tom Berenger",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 479,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "spotlight-2015",
+      "link": "https://www.imdb.com/title/tt1895587/",
+      "place": 229,
+      "year": 2015,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Spotlight",
+      "reparto": "Tom McCarthy (dir.), Mark Ruffalo, Michael Keaton",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 4]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 480,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "monstruos-sa-2001",
+      "link": "https://www.imdb.com/title/tt0198781/",
+      "place": 230,
+      "year": 2001,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Monstruos, S.A.",
+      "reparto": "Pete Docter (dir.), Billy Crystal, John Goodman",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 13, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 481,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "rebeca-1940",
+      "link": "https://www.imdb.com/title/tt0032976/",
+      "place": 231,
+      "year": 1940,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYTcxYWExOTMtMWFmYy00ZjgzLWI0YjktNWEzYzJkZTg0NDdmL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Rebeca",
+      "reparto": "Alfred Hitchcock (dir.), Laurence Olivier, Joan Fontaine",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 11, 19]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 482,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "la-vida-de-brian-1979",
+      "link": "https://www.imdb.com/title/tt0079470/",
+      "place": 232,
+      "year": 1979,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMzAwNjU1OTktYjY3Mi00NDY5LWFlZWUtZjhjNGE0OTkwZDkwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "La vida de Brian",
+      "reparto": "Terry Jones (dir.), Graham Chapman, John Cleese",
+      "resumen": "",
+      "duracion": "",
+      "generos": [13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 483,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "deseando-amar-2000",
+      "link": "https://www.imdb.com/title/tt0118694/",
+      "place": 233,
+      "year": 2000,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYjZjODRlMjQtMjJlYy00ZDBjLTkyYTQtZGQxZTk5NzJhYmNmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Deseando amar",
+      "reparto": "Kar-Wai Wong (dir.), Tony Chiu-Wai Leung, Maggie Cheung",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 484,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "hotel-rwanda-2004",
+      "link": "https://www.imdb.com/title/tt0395169/",
+      "place": 234,
+      "year": 2004,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZGJjYmIzZmQtNWE4Yy00ZGVmLWJkZGEtMzUzNmQ4ZWFlMjRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Hotel Rwanda",
+      "reparto": "Terry George (dir.), Don Cheadle, Sophie Okonedo",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 5]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 485,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "eskiya-1996",
+      "link": "https://www.imdb.com/title/tt0116231/",
+      "place": 235,
+      "year": 1996,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOGQ4ZjFmYjktOGNkNS00OWYyLWIyZjgtMGJjM2U1ZTA0ZTlhXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Eskiya",
+      "reparto": "Yavuz Turgul (dir.), Sener Sen, Ugur Yücel",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 486,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "rush-2013",
+      "link": "https://www.imdb.com/title/tt1979320/",
+      "place": 236,
+      "year": 2013,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOWEwODJmZDItYTNmZC00OGM4LThlNDktOTQzZjIzMGQxODA4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Rush",
+      "reparto": "Ron Howard (dir.), Daniel Brühl, Chris Hemsworth",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 4]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 487,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "rocky-1976",
+      "link": "https://www.imdb.com/title/tt0075148/",
+      "place": 237,
+      "year": 1976,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Rocky",
+      "reparto": "John G. Avildsen (dir.), Sylvester Stallone, Talia Shire",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 21]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 488,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "amores-perros-2000",
+      "link": "https://www.imdb.com/title/tt0245712/",
+      "place": 238,
+      "year": 2000,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMjQxMWJhMzMtMzllZi00NzMwLTllYjktNTcwZmU4ZmU3NTA0XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_UY67_CR2,0,45,67_AL_.jpg",
+      "title": "Amores perros",
+      "reparto": "Alejandro G. Iñárritu (dir.), Emilio Echevarría, Gael García Bernal",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 489,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "hacia-rutas-salvajes-2007",
+      "link": "https://www.imdb.com/title/tt0758758/",
+      "place": 239,
+      "year": 2007,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTAwNDEyODU1MjheQTJeQWpwZ15BbWU2MDc3NDQwNw@@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Hacia rutas salvajes",
+      "reparto": "Sean Penn (dir.), Emile Hirsch, Vince Vaughn",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 6]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 490,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "nausicaa-del-valle-del-viento-1984",
+      "link": "https://www.imdb.com/title/tt0087544/",
+      "place": 240,
+      "year": 1984,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZTI3NmJmYTQtNDg4NS00M2VlLTgzZDAtZWIwZDcyOWY5YzIzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Nausicaä del Valle del Viento",
+      "reparto": "Hayao Miyazaki (dir.), Sumi Shimamoto, Mahito Tsujimura",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 9, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 491,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "antes-del-atardecer-2004",
+      "link": "https://www.imdb.com/title/tt0381681/",
+      "place": 241,
+      "year": 2004,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Antes del atardecer",
+      "reparto": "Richard Linklater (dir.), Ethan Hawke, Julie Delpy",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 8]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 492,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "sucedio-una-noche-1934",
+      "link": "https://www.imdb.com/title/tt0025316/",
+      "place": 242,
+      "year": 1934,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYzJmMWE5NjAtNWMyZS00NmFiLWIwMDgtZDE2NzczYWFhNzIzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Sucedió una noche",
+      "reparto": "Frank Capra (dir.), Clark Gable, Claudette Colbert",
+      "resumen": "",
+      "duracion": "",
+      "generos": [8, 13]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 493,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "guardianes-de-la-noche-kimetsu-no-yaiba-la-pelicula-tren-infinito-2020",
+      "link": "https://www.imdb.com/title/tt11032374/",
+      "place": 243,
+      "year": 2020,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BODI2NjdlYWItMTE1ZC00YzI2LTlhZGQtNzE3NzA4MWM0ODYzXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_UX45_CR0,0,45,67_AL_.jpg",
+      "title": "Guardianes de la noche - Kimetsu no Yaiba - La película: Tren Infinito",
+      "reparto": "Haruo Sotozaki (dir.), Natsuki Hanae, Akari Kitô",
+      "resumen": "",
+      "duracion": "",
+      "generos": [3, 6, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 494,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "fanny-y-alexander-1982",
+      "link": "https://www.imdb.com/title/tt0083922/",
+      "place": 244,
+      "year": 1982,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZmQzMDE5ZWQtOTU3ZS00ZjdhLWI0OTctZDNkODk4YThmOTRhL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Fanny y Alexander",
+      "reparto": "Ingmar Bergman (dir.), Bertil Guve, Pernilla Allwin",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 495,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "la-batalla-de-argel-1966",
+      "link": "https://www.imdb.com/title/tt0058946/",
+      "place": 245,
+      "year": 1966,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BZWEzMGY4OTQtYTdmMy00M2QwLTliYTQtYWUzYzc3OTA5YzIwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "La batalla de Argel",
+      "reparto": "Gillo Pontecorvo (dir.), Brahim Hadjadj, Jean Martin",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 15]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 496,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "drishyam-2013",
+      "link": "https://www.imdb.com/title/tt3417422/",
+      "place": 246,
+      "year": 2013,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BYmY3MzYwMGUtOWMxYS00OGVhLWFjNmUtYzlkNGVmY2ZkMjA3XkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UY67_CR3,0,45,67_AL_.jpg",
+      "title": "Drishyam",
+      "reparto": "Jeethu Joseph (dir.), Mohanlal, Meena",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 2, 17]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 497,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "las-noches-de-cabiria-1957",
+      "link": "https://www.imdb.com/title/tt0050783/",
+      "place": 247,
+      "year": 1957,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BOTdhNmUxZmQtNmMwNC00MzE3LWE1MTUtZDgxZTYwYjEzZjcwXkEyXkFqcGdeQXVyNTA1NjYyMDk@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "Las noches de Cabiria",
+      "reparto": "Federico Fellini (dir.), Giulietta Masina, François Périer",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 498,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "neon-genesis-evangelion-the-end-of-evangelion-1997",
+      "link": "https://www.imdb.com/title/tt0169858/",
+      "place": 248,
+      "year": 1997,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMDAxYzU2YjEtNmNjNS00OGJlLTg3MzgtNzAwN2E1ZWFiYTg5XkEyXkFqcGdeQXVyNTkwNzYyODM@._V1_UY67_CR1,0,45,67_AL_.jpg",
+      "title": "Neon Genesis Evangelion: The End of Evangelion",
+      "reparto": "Hideaki Anno (dir.), Megumi Ogata, Megumi Hayashibara",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 3, 16]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 499,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "andrei-rublev-1966",
+      "link": "https://www.imdb.com/title/tt0060107/",
+      "place": 249,
+      "year": 1966,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BNjM2MjMwNzUzN15BMl5BanBnXkFtZTgwMjEzMzE5MTE@._V1_UY67_CR2,0,45,67_AL_.jpg",
+      "title": "Andrei Rublev",
+      "reparto": "Andrei Tarkovsky (dir.), Anatoliy Solonitsyn, Ivan Lapikov",
+      "resumen": "",
+      "duracion": "",
+      "generos": [1, 4, 5]
+    }
+  },
+  {
+    "model": "pelis.pelicula",
+    "pk": 500,
+    "fields": {
+      "rating": "8.0000",
+      "slug": "la-princesa-prometida-1987",
+      "link": "https://www.imdb.com/title/tt0093779/",
+      "place": 250,
+      "year": 1987,
+      "imagen": "https://m.media-amazon.com/images/M/MV5BMGM4M2Q5N2MtNThkZS00NTc1LTk1NTItNWEyZjJjNDRmNDk5XkEyXkFqcGdeQXVyMjA0MDQ0Mjc@._V1_UY67_CR0,0,45,67_AL_.jpg",
+      "title": "La princesa prometida",
+      "reparto": "Rob Reiner (dir.), Cary Elwes, Mandy Patinkin",
+      "resumen": "",
+      "duracion": "",
+      "generos": [6, 10, 14]
+    }
+  }
+]

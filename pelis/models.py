@@ -26,11 +26,11 @@ class Genre(models.Model):
 @register_snippet
 class Pelicula(models.Model):
     rating = models.DecimalField(max_digits=6, decimal_places=4, blank=True)
-    slug = models.SlugField(blank=True)
-    link = models.URLField(blank=True)
+    slug = models.SlugField(max_length=255,blank=True)
+    link = models.URLField(max_length=255,blank=True)
     place = models.PositiveIntegerField(blank=True)
     year = models.PositiveIntegerField("Año", blank=True)
-    imagen = models.URLField(blank=True)
+    imagen = models.URLField(max_length=255,blank=True)
     title = models.CharField('título',max_length=255,blank=True)
     reparto = models.CharField(max_length=255,blank=True)
     generos = models.ManyToManyField(Genre)
@@ -48,9 +48,11 @@ class Pelicula(models.Model):
         FieldPanel('reparto'),
         FieldPanel('generos'),
         FieldPanel('resumen'),
-        FieldPanel('duracion'),
-        
+        FieldPanel('duracion'),       
     ]
+
+    def generos_str(self):
+        return ','.join([g.nombre for g in self.generos.all()])
 
     def __str__(self):
         return f'{self.title}({self.year})'
@@ -98,7 +100,7 @@ class PelisIndexPage(Page):
         else:
             peliculas = Pelicula.objects.all()
 
-        context['peliculas'] = self.paginate(request, peliculas)
+        context['peliculas'] = Pelicula.objects.all() #self.paginate(request, peliculas)
         context['qs'] = qs
         
         return context

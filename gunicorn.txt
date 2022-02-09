@@ -1,0 +1,50 @@
+Entramos al (env), y vamos a la carpeta del proyecto
+Ejecutamos gunicorn :
+gunicorn --bind localhost:8000 blogclase.wsgi
+
+O directamente desde la carpeta del proyecto :
+ /home/vagrant/env/bin/gunicorn --bind localhost:8000 blogclase.wsgi
+
+----------------------------------------------------------------------
+ Libreria para Postgres : pip install psycopg2-binary
+----------------------------------------------------------------------
+
+Para migrar production : python manage.py migrate --settings=blogclase.settings.production
+----------------------------------------------------------------------
+
+Pasar datos de dev a production :
+py manage.py dumpdata pelis > pelis.json
+python manage.py loaddata pelis.json --settings=blogclase.settings.production
+
+---------PELIS INDEX VIEJO----------------------------------------
+{% extends "base.html" %}
+
+{% load wagtailcore_tags wagtailimages_tags %}
+
+{% block body_class %}template-blogindexpage{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>{{ page.title }}</h1>
+    <p><a href="?decada=90">Década de los 90</a></p>
+    <p><a href="?genero=drama">Drama</a></p>
+    <div class="intro">{{ page.introduccion|richtext }}</div>
+    <ul style=list-style:none;>
+        {% for peli in peliculas %}
+        <li>
+            <img src={{peli.imagen}}> {{peli.place}}.&nbsp;{{peli.title}}({{peli.year}})-------------> IMDb Rating : <strong>{{peli.rating}}</strong><br><hr>
+        </li>
+        {% endfor %}
+    </ul>
+    {% if peliculas.paginator.count > 1 %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                {% include "includes/pagination.html" with subpages=peliculas %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
+-------------------------------------------------------------------

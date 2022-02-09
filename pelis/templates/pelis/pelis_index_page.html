@@ -4,27 +4,37 @@
 
 {% block body_class %}template-blogindexpage{% endblock %}
 
+{% block extra_css %}        
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+{% endblock %}
+
 {% block content %}
 <div class="container">
     <h1>{{ page.title }}</h1>
-    <p><a href="?decada=90">Década de los 90</a></p>
-    <p><a href="?genero=drama">Drama</a></p>
-    <div class="intro">{{ page.introduccion|richtext }}</div>
-    <ul style=list-style:none;>
+    <table id="peliculas">
+        <thead><tr><td>Titulo</td><td>Año</td><td>Posicion</td><td>Genero</td><td></td></tr></thead>
+        <tbody>
         {% for peli in peliculas %}
-        <li>
-            <img src={{peli.imagen}}> {{peli.place}}.&nbsp;{{peli.title}}({{peli.year}})-------------> IMDb Rating : <strong>{{peli.rating}}</strong><br><hr>
-        </li>
+        <tr><td>{{peli.title}}</td><td>{{peli.year}}</td><td class="text-center">{{peli.place}}</td><td>{{peli.generos_str}}</td>
+            <td><img src="{{peli.imagen}}" alt="{{peli.title}}"></td></tr>
         {% endfor %}
-    </ul>
-    {% if peliculas.paginator.count > 1 %}
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                {% include "includes/pagination.html" with subpages=peliculas %}
-                </div>
-            </div>
-        </div>
-    {% endif %}
+    </tbody>
+    </table>>
 </div>
+{% endblock %}
+
+{% block extra_js %}
+<script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="//cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="//cdn.datatables.net/plug-ins/1.11.4/i18n/es_es.json"></script>
+<script>
+    $(document).ready( function () {
+        $('#peliculas').DataTable({
+            language: {
+                url: '//cdn.datatables.net/plug-ins/1.11.4/i18n/es_es.json'
+            }
+        });
+    } );
+</script>
+
 {% endblock %}
