@@ -1,0 +1,1802 @@
+[
+  {
+    "nombre": "Miroslav Klose",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "24",
+    "goles": "16",
+    "penaltis": "0",
+    "media": "0.67"
+  },
+  {
+    "nombre": " Ronaldo",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "19",
+    "goles": "15",
+    "penaltis": "1",
+    "media": "0.79"
+  },
+  {
+    "nombre": "Gerd M\u00fcller",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "13",
+    "goles": "14",
+    "penaltis": "1",
+    "media": "1.08"
+  },
+  {
+    "nombre": "Just Fontaine",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "6",
+    "goles": "13",
+    "penaltis": "0",
+    "media": "2.17"
+  },
+  {
+    "nombre": " Pel\u00e9",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "14",
+    "goles": "12",
+    "penaltis": "0",
+    "media": "0.86"
+  },
+  {
+    "nombre": "J\u00fcrgen Klinsmann",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "17",
+    "goles": "11",
+    "penaltis": "0",
+    "media": "0.65"
+  },
+  {
+    "nombre": "S\u00e1ndor Kocsis",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/54.gif?fallback=png",
+    "seleccion": "Hungr\u00eda",
+    "partidos": "5",
+    "goles": "11",
+    "penaltis": "0",
+    "media": "2.20"
+  },
+  {
+    "nombre": "Gabriel Batistuta",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "12",
+    "goles": "10",
+    "penaltis": "4",
+    "media": "0.83"
+  },
+  {
+    "nombre": "Te\u00f3filo Cubillas",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/65.gif?fallback=png",
+    "seleccion": "Per\u00fa",
+    "partidos": "13",
+    "goles": "10",
+    "penaltis": "2",
+    "media": "0.77"
+  },
+  {
+    "nombre": "Grzegorz Lato",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/38.gif?fallback=png",
+    "seleccion": "Polonia",
+    "partidos": "20",
+    "goles": "10",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Gary Lineker",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/12.gif?fallback=png",
+    "seleccion": "Inglaterra",
+    "partidos": "12",
+    "goles": "10",
+    "penaltis": "2",
+    "media": "0.83"
+  },
+  {
+    "nombre": "Thomas M\u00fcller",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "16",
+    "goles": "10",
+    "penaltis": "1",
+    "media": "0.63"
+  },
+  {
+    "nombre": "Helmut Rahn",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "10",
+    "goles": "10",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": " Ademir",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "6",
+    "goles": "9",
+    "penaltis": "0",
+    "media": "1.50"
+  },
+  {
+    "nombre": "Roberto Baggio",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/25.gif?fallback=png",
+    "seleccion": "Italia",
+    "partidos": "16",
+    "goles": "9",
+    "penaltis": "2",
+    "media": "0.56"
+  },
+  {
+    "nombre": " David Villa",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "12",
+    "goles": "9",
+    "penaltis": "2",
+    "media": "0.75"
+  },
+  {
+    "nombre": " Eus\u00e9bio",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/39.gif?fallback=png",
+    "seleccion": "Portugal",
+    "partidos": "6",
+    "goles": "9",
+    "penaltis": "4",
+    "media": "1.50"
+  },
+  {
+    "nombre": " Jairzinho",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "16",
+    "goles": "9",
+    "penaltis": "0",
+    "media": "0.56"
+  },
+  {
+    "nombre": "Paolo Rossi",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/25.gif?fallback=png",
+    "seleccion": "Italia",
+    "partidos": "14",
+    "goles": "9",
+    "penaltis": "0",
+    "media": "0.64"
+  },
+  {
+    "nombre": "Karl-Heinz Rummenigge",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "19",
+    "goles": "9",
+    "penaltis": "0",
+    "media": "0.47"
+  },
+  {
+    "nombre": "Uwe Seeler",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "21",
+    "goles": "9",
+    "penaltis": "0",
+    "media": "0.43"
+  },
+  {
+    "nombre": " Vav\u00e1",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "10",
+    "goles": "9",
+    "penaltis": "0",
+    "media": "0.90"
+  },
+  {
+    "nombre": "Christian Vieri",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/25.gif?fallback=png",
+    "seleccion": "Italia",
+    "partidos": "9",
+    "goles": "9",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": " L\u00e9\u00f4nidas",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "5",
+    "goles": "8",
+    "penaltis": "0",
+    "media": "1.60"
+  },
+  {
+    "nombre": "Diego Maradona",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "21",
+    "goles": "8",
+    "penaltis": "0",
+    "media": "0.38"
+  },
+  {
+    "nombre": "Oscar M\u00edguez",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/66.gif?fallback=png",
+    "seleccion": "Uruguay",
+    "partidos": "7",
+    "goles": "8",
+    "penaltis": "0",
+    "media": "1.14"
+  },
+  {
+    "nombre": " Rivaldo",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "14",
+    "goles": "8",
+    "penaltis": "1",
+    "media": "0.57"
+  },
+  {
+    "nombre": "Guillermo St\u00e1bile",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "4",
+    "goles": "8",
+    "penaltis": "0",
+    "media": "2.00"
+  },
+  {
+    "nombre": "Rudi V\u00f6ller",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "15",
+    "goles": "8",
+    "penaltis": "0",
+    "media": "0.53"
+  },
+  {
+    "nombre": " Careca",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "9",
+    "goles": "7",
+    "penaltis": "1",
+    "media": "0.78"
+  },
+  {
+    "nombre": " Cristiano Ronaldo",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/39.gif?fallback=png",
+    "seleccion": "Portugal",
+    "partidos": "17",
+    "goles": "7",
+    "penaltis": "2",
+    "media": "0.41"
+  },
+  {
+    "nombre": "Old\u0159ich Nejedl\u00fd",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/8.gif?fallback=png",
+    "seleccion": "Checoslovaquia",
+    "partidos": "6",
+    "goles": "7",
+    "penaltis": "1",
+    "media": "1.17"
+  },
+  {
+    "nombre": "Johnny Rep",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/21.gif?fallback=png",
+    "seleccion": "Pa\u00edses Bajos",
+    "partidos": "14",
+    "goles": "7",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Hans Sch\u00e4fer",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "15",
+    "goles": "7",
+    "penaltis": "0",
+    "media": "0.47"
+  },
+  {
+    "nombre": "Luis Su\u00e1rez",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/66.gif?fallback=png",
+    "seleccion": "Uruguay",
+    "partidos": "13",
+    "goles": "7",
+    "penaltis": "0",
+    "media": "0.54"
+  },
+  {
+    "nombre": "Andrzej Szarmach",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/38.gif?fallback=png",
+    "seleccion": "Polonia",
+    "partidos": "13",
+    "goles": "7",
+    "penaltis": "0",
+    "media": "0.54"
+  },
+  {
+    "nombre": "Lajos Tich\u00fd",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/54.gif?fallback=png",
+    "seleccion": "Hungr\u00eda",
+    "partidos": "8",
+    "goles": "7",
+    "penaltis": "0",
+    "media": "0.88"
+  },
+  {
+    "nombre": " Bebeto",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "15",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "0.40"
+  },
+  {
+    "nombre": "Dennis Bergkamp",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/21.gif?fallback=png",
+    "seleccion": "Pa\u00edses Bajos",
+    "partidos": "12",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Zbigniew Boniek",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/38.gif?fallback=png",
+    "seleccion": "Polonia",
+    "partidos": "16",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "0.38"
+  },
+  {
+    "nombre": "Diego Forl\u00e1n",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/66.gif?fallback=png",
+    "seleccion": "Uruguay",
+    "partidos": "10",
+    "goles": "6",
+    "penaltis": "1",
+    "media": "0.60"
+  },
+  {
+    "nombre": "Asamoah Gyan",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/82.gif?fallback=png",
+    "seleccion": "Ghana",
+    "partidos": "11",
+    "goles": "6",
+    "penaltis": "2",
+    "media": "0.55"
+  },
+  {
+    "nombre": "Helmut Haller",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "9",
+    "goles": "6",
+    "penaltis": "1",
+    "media": "0.67"
+  },
+  {
+    "nombre": "Thierry Henry",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "17",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "0.35"
+  },
+  {
+    "nombre": "Josef H\u00fcgi",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/45.gif?fallback=png",
+    "seleccion": "Suiza",
+    "partidos": "3",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "2.00"
+  },
+  {
+    "nombre": "Harry Kane",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/12.gif?fallback=png",
+    "seleccion": "Inglaterra",
+    "partidos": "6",
+    "goles": "6",
+    "penaltis": "3",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Mario Kempes",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "18",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "0.33"
+  },
+  {
+    "nombre": "Lothar Matth\u00e4us",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "25",
+    "goles": "6",
+    "penaltis": "2",
+    "media": "0.24"
+  },
+  {
+    "nombre": "Lionel Messi",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "19",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "0.32"
+  },
+  {
+    "nombre": "Max Morlock",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "5",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "1.20"
+  },
+  {
+    "nombre": " Neymar",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "10",
+    "goles": "6",
+    "penaltis": "1",
+    "media": "0.60"
+  },
+  {
+    "nombre": "Erich Probst",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/37.gif?fallback=png",
+    "seleccion": "Austria",
+    "partidos": "5",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "1.20"
+  },
+  {
+    "nombre": "Rob Rensenbrink",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/21.gif?fallback=png",
+    "seleccion": "Pa\u00edses Bajos",
+    "partidos": "13",
+    "goles": "6",
+    "penaltis": "4",
+    "media": "0.46"
+  },
+  {
+    "nombre": " Rivelino",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "15",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "0.40"
+  },
+  {
+    "nombre": "Arjen Robben",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/21.gif?fallback=png",
+    "seleccion": "Pa\u00edses Bajos",
+    "partidos": "15",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "0.40"
+  },
+  {
+    "nombre": "James Rodr\u00edguez",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/63.gif?fallback=png",
+    "seleccion": "Colombia",
+    "partidos": "8",
+    "goles": "6",
+    "penaltis": "1",
+    "media": "0.75"
+  },
+  {
+    "nombre": "Oleg Salenko",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/41.gif?fallback=png",
+    "seleccion": "Rusia",
+    "partidos": "3",
+    "goles": "6",
+    "penaltis": "2",
+    "media": "2.00"
+  },
+  {
+    "nombre": "Gy\u00f6rgy S\u00e1rosi",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/54.gif?fallback=png",
+    "seleccion": "Hungr\u00eda",
+    "partidos": "5",
+    "goles": "6",
+    "penaltis": "1",
+    "media": "1.20"
+  },
+  {
+    "nombre": "Salvatore Schillaci",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/25.gif?fallback=png",
+    "seleccion": "Italia",
+    "partidos": "7",
+    "goles": "6",
+    "penaltis": "1",
+    "media": "0.86"
+  },
+  {
+    "nombre": "Wesley Sneijder",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/21.gif?fallback=png",
+    "seleccion": "Pa\u00edses Bajos",
+    "partidos": "17",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "0.35"
+  },
+  {
+    "nombre": "Hristo Stoichkov",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/7.gif?fallback=png",
+    "seleccion": "Bulgaria",
+    "partidos": "10",
+    "goles": "6",
+    "penaltis": "3",
+    "media": "0.60"
+  },
+  {
+    "nombre": "Davor \u0160uker",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/26.gif?fallback=png",
+    "seleccion": "Yugoslavia",
+    "partidos": "8",
+    "goles": "6",
+    "penaltis": "1",
+    "media": "0.75"
+  },
+  {
+    "nombre": "Robin van Persie",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/21.gif?fallback=png",
+    "seleccion": "Pa\u00edses Bajos",
+    "partidos": "17",
+    "goles": "6",
+    "penaltis": "1",
+    "media": "0.35"
+  },
+  {
+    "nombre": "Gyula Zsengell\u00e9r",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/54.gif?fallback=png",
+    "seleccion": "Hungr\u00eda",
+    "partidos": "4",
+    "goles": "6",
+    "penaltis": "0",
+    "media": "1.50"
+  },
+  {
+    "nombre": "Alessandro Altobelli",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/25.gif?fallback=png",
+    "seleccion": "Italia",
+    "partidos": "7",
+    "goles": "5",
+    "penaltis": "1",
+    "media": "0.71"
+  },
+  {
+    "nombre": "Kennet Andersson",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/44.gif?fallback=png",
+    "seleccion": "Suecia",
+    "partidos": "7",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.71"
+  },
+  {
+    "nombre": " Basora",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "6",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.83"
+  },
+  {
+    "nombre": "Franz Beckenbauer",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "18",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.28"
+  },
+  {
+    "nombre": " Butrague\u00f1o",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "9",
+    "goles": "5",
+    "penaltis": "1",
+    "media": "0.56"
+  },
+  {
+    "nombre": "Tim Cahill",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/194.gif?fallback=png",
+    "seleccion": "Australia",
+    "partidos": "9",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.56"
+  },
+  {
+    "nombre": "Edinson Cavani",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/66.gif?fallback=png",
+    "seleccion": "Uruguay",
+    "partidos": "14",
+    "goles": "5",
+    "penaltis": "1",
+    "media": "0.36"
+  },
+  {
+    "nombre": "Pedro Cea",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/66.gif?fallback=png",
+    "seleccion": "Uruguay",
+    "partidos": "4",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "1.25"
+  },
+  {
+    "nombre": "Landon Donovan",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/151.gif?fallback=png",
+    "seleccion": "Estados Unidos",
+    "partidos": "12",
+    "goles": "5",
+    "penaltis": "1",
+    "media": "0.42"
+  },
+  {
+    "nombre": " Garrincha",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "12",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.42"
+  },
+  {
+    "nombre": " Hierro",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "12",
+    "goles": "5",
+    "penaltis": "3",
+    "media": "0.42"
+  },
+  {
+    "nombre": "Gonzalo Higua\u00edn",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "14",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.36"
+  },
+  {
+    "nombre": "Geoff Hurst",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/12.gif?fallback=png",
+    "seleccion": "Inglaterra",
+    "partidos": "6",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.83"
+  },
+  {
+    "nombre": "Valentin Ivanov",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/52.gif?fallback=png",
+    "seleccion": "USSR",
+    "partidos": "9",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.56"
+  },
+  {
+    "nombre": "Hans Krankl",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/37.gif?fallback=png",
+    "seleccion": "Austria",
+    "partidos": "10",
+    "goles": "5",
+    "penaltis": "1",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Henrik Larsson",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/44.gif?fallback=png",
+    "seleccion": "Suecia",
+    "partidos": "13",
+    "goles": "5",
+    "penaltis": "1",
+    "media": "0.38"
+  },
+  {
+    "nombre": "Romelu Lukaku",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/5.gif?fallback=png",
+    "seleccion": "B\u00e9lgica",
+    "partidos": "10",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Mario Mand\u017euki\u0107",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/27.gif?fallback=png",
+    "seleccion": "Croacia",
+    "partidos": "8",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.63"
+  },
+  {
+    "nombre": "Peter McParland",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/35.gif?fallback=png",
+    "seleccion": "Irlanda del Norte",
+    "partidos": "5",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Roger Milla",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/85.gif?fallback=png",
+    "seleccion": "Camer\u00fan",
+    "partidos": "10",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": " Morientes",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "7",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.71"
+  },
+  {
+    "nombre": "Johan Neeskens",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/21.gif?fallback=png",
+    "seleccion": "Pa\u00edses Bajos",
+    "partidos": "12",
+    "goles": "5",
+    "penaltis": "3",
+    "media": "0.42"
+  },
+  {
+    "nombre": "Ivan Peri\u0161i\u0107",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/27.gif?fallback=png",
+    "seleccion": "Croacia",
+    "partidos": "10",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Silvio Piola",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/25.gif?fallback=png",
+    "seleccion": "Italia",
+    "partidos": "4",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "1.25"
+  },
+  {
+    "nombre": "Michel Platini",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "14",
+    "goles": "5",
+    "penaltis": "1",
+    "media": "0.36"
+  },
+  {
+    "nombre": "Lukas Podolski",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "15",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.33"
+  },
+  {
+    "nombre": " Ra\u00fal",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "11",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.45"
+  },
+  {
+    "nombre": " Rom\u00e1rio",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "8",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.63"
+  },
+  {
+    "nombre": "Juan Schiaffino",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/66.gif?fallback=png",
+    "seleccion": "Uruguay",
+    "partidos": "9",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.56"
+  },
+  {
+    "nombre": "Tom\u00e1\u0161 Skuhrav\u00fd",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/8.gif?fallback=png",
+    "seleccion": "Checoslovaquia",
+    "partidos": "5",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Jon Dahl Tomasson",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/9.gif?fallback=png",
+    "seleccion": "Dinamarca",
+    "partidos": "6",
+    "goles": "5",
+    "penaltis": "1",
+    "media": "0.83"
+  },
+  {
+    "nombre": "Marc Wilmots",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/5.gif?fallback=png",
+    "seleccion": "B\u00e9lgica",
+    "partidos": "8",
+    "goles": "5",
+    "penaltis": "0",
+    "media": "0.63"
+  },
+  {
+    "nombre": " Zico",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "14",
+    "goles": "5",
+    "penaltis": "1",
+    "media": "0.36"
+  },
+  {
+    "nombre": "Zin\u00e9dine Zidane",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "12",
+    "goles": "5",
+    "penaltis": "2",
+    "media": "0.42"
+  },
+  {
+    "nombre": "Andr\u00e9 Abegglen",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/45.gif?fallback=png",
+    "seleccion": "Suiza",
+    "partidos": "5",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.80"
+  },
+  {
+    "nombre": "Fl\u00f3ri\u00e1n Albert",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/54.gif?fallback=png",
+    "seleccion": "Hungr\u00eda",
+    "partidos": "7",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.57"
+  },
+  {
+    "nombre": "Robert Ballaman",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/45.gif?fallback=png",
+    "seleccion": "Suiza",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Igor Belanov",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/52.gif?fallback=png",
+    "seleccion": "USSR",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "2",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Ferenc Bene",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/54.gif?fallback=png",
+    "seleccion": "Hungr\u00eda",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Daniel Bertoni",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "11",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.36"
+  },
+  {
+    "nombre": "Oliver Bierhoff",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "10",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.40"
+  },
+  {
+    "nombre": "Carlos Borges",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/66.gif?fallback=png",
+    "seleccion": "Uruguay",
+    "partidos": "5",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.80"
+  },
+  {
+    "nombre": "Andreas Brehme",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "16",
+    "goles": "4",
+    "penaltis": "1",
+    "media": "0.25"
+  },
+  {
+    "nombre": "Paul Breitner",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "14",
+    "goles": "4",
+    "penaltis": "1",
+    "media": "0.29"
+  },
+  {
+    "nombre": "Tomas Brolin",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/44.gif?fallback=png",
+    "seleccion": "Suecia",
+    "partidos": "10",
+    "goles": "4",
+    "penaltis": "1",
+    "media": "0.40"
+  },
+  {
+    "nombre": "Anatoliy Byshovets",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/52.gif?fallback=png",
+    "seleccion": "USSR",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Claudio Caniggia",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "9",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.44"
+  },
+  {
+    "nombre": "Jan Ceulemans",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/5.gif?fallback=png",
+    "seleccion": "B\u00e9lgica",
+    "partidos": "16",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.25"
+  },
+  {
+    "nombre": "Bobby Charlton",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/12.gif?fallback=png",
+    "seleccion": "Inglaterra",
+    "partidos": "14",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.29"
+  },
+  {
+    "nombre": "Denis Cheryshev",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/41.gif?fallback=png",
+    "seleccion": "Rusia",
+    "partidos": "5",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.80"
+  },
+  {
+    "nombre": " Chico",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Igor Chislenko",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/52.gif?fallback=png",
+    "seleccion": "USSR",
+    "partidos": "7",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.57"
+  },
+  {
+    "nombre": "Luigi Colaussi",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/25.gif?fallback=png",
+    "seleccion": "Italia",
+    "partidos": "3",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.33"
+  },
+  {
+    "nombre": "Edmund Conen",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Hern\u00e1n Crespo",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "8",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Martin Dahlin",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/44.gif?fallback=png",
+    "seleccion": "Suecia",
+    "partidos": "5",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.80"
+  },
+  {
+    "nombre": "Clint Dempsey",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/151.gif?fallback=png",
+    "seleccion": "Estados Unidos",
+    "partidos": "10",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.40"
+  },
+  {
+    "nombre": "Kazimierz Deyna",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/38.gif?fallback=png",
+    "seleccion": "Polonia",
+    "partidos": "13",
+    "goles": "4",
+    "penaltis": "1",
+    "media": "0.31"
+  },
+  {
+    "nombre": "Ralf Edstr\u00f6m",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/44.gif?fallback=png",
+    "seleccion": "Suecia",
+    "partidos": "9",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.44"
+  },
+  {
+    "nombre": "Preben Elkj\u00e6r Larsen",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/9.gif?fallback=png",
+    "seleccion": "Dinamarca",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": " Fernando Torres",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "14",
+    "goles": "4",
+    "penaltis": "1",
+    "media": "0.29"
+  },
+  {
+    "nombre": "Alcides Ghiggia",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/66.gif?fallback=png",
+    "seleccion": "Uruguay",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Antoine Griezmann",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "12",
+    "goles": "4",
+    "penaltis": "3",
+    "media": "0.33"
+  },
+  {
+    "nombre": "Kurt Hamrin",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/44.gif?fallback=png",
+    "seleccion": "Suecia",
+    "partidos": "5",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.80"
+  },
+  {
+    "nombre": "Javier Hern\u00e1ndez",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/139.gif?fallback=png",
+    "seleccion": "M\u00e9xico",
+    "partidos": "12",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.33"
+  },
+  {
+    "nombre": "Luis Hern\u00e1ndez",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/139.gif?fallback=png",
+    "seleccion": "M\u00e9xico",
+    "partidos": "7",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.57"
+  },
+  {
+    "nombre": "N\u00e1ndor Hidegkuti",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/54.gif?fallback=png",
+    "seleccion": "Hungr\u00eda",
+    "partidos": "6",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.67"
+  },
+  {
+    "nombre": "Keisuke Honda",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/162.gif?fallback=png",
+    "seleccion": "Jap\u00f3n",
+    "partidos": "10",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.40"
+  },
+  {
+    "nombre": "Ren\u00e9 Houseman",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "12",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.33"
+  },
+  {
+    "nombre": "Drazan Jerkovi\u0107",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/26.gif?fallback=png",
+    "seleccion": "Yugoslavia",
+    "partidos": "6",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.67"
+  },
+  {
+    "nombre": "Joe Jordan",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/43.gif?fallback=png",
+    "seleccion": "Escocia",
+    "partidos": "7",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.57"
+  },
+  {
+    "nombre": "Leopoldo Luque",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "5",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.80"
+  },
+  {
+    "nombre": "Kylian Mbapp\u00e9",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "7",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.57"
+  },
+  {
+    "nombre": " M\u00edchel",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "9",
+    "goles": "4",
+    "penaltis": "1",
+    "media": "0.44"
+  },
+  {
+    "nombre": "Ahmed Musa",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/100.gif?fallback=png",
+    "seleccion": "Nigeria",
+    "partidos": "7",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.57"
+  },
+  {
+    "nombre": "Michael Owen",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/12.gif?fallback=png",
+    "seleccion": "Inglaterra",
+    "partidos": "12",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.33"
+  },
+  {
+    "nombre": "Bert Patenaude",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/151.gif?fallback=png",
+    "seleccion": "Estados Unidos",
+    "partidos": "3",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.33"
+  },
+  {
+    "nombre": " Pauleta",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/39.gif?fallback=png",
+    "seleccion": "Portugal",
+    "partidos": "9",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.44"
+  },
+  {
+    "nombre": "Roger Piantoni",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "5",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.80"
+  },
+  {
+    "nombre": "Valeriy Porkuyan",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/52.gif?fallback=png",
+    "seleccion": "USSR",
+    "partidos": "3",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.33"
+  },
+  {
+    "nombre": "Ferenc Pusk\u00e1s",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "6",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.67"
+  },
+  {
+    "nombre": "Florin R\u0103ducioiu",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/40.gif?fallback=png",
+    "seleccion": "Rumania",
+    "partidos": "7",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.57"
+  },
+  {
+    "nombre": "Dominique Rocheteau",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "10",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.40"
+  },
+  {
+    "nombre": "Marcelo Salas",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/61.gif?fallback=png",
+    "seleccion": "Chile",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Leonel S\u00e1nchez",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/61.gif?fallback=png",
+    "seleccion": "Chile",
+    "partidos": "9",
+    "goles": "4",
+    "penaltis": "1",
+    "media": "0.44"
+  },
+  {
+    "nombre": "Angelo Schiavio",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/25.gif?fallback=png",
+    "seleccion": "Italia",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Xherdan Shaqiri",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/45.gif?fallback=png",
+    "seleccion": "Suiza",
+    "partidos": "9",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.44"
+  },
+  {
+    "nombre": "Agne Simonsson",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/44.gif?fallback=png",
+    "seleccion": "Suecia",
+    "partidos": "5",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.80"
+  },
+  {
+    "nombre": " S\u00f3crates",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "10",
+    "goles": "4",
+    "penaltis": "1",
+    "media": "0.40"
+  },
+  {
+    "nombre": "Jorge Valdano",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "9",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.44"
+  },
+  {
+    "nombre": "R\u00f3bert Vittek",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/46.gif?fallback=png",
+    "seleccion": "Eslovaquia",
+    "partidos": "4",
+    "goles": "4",
+    "penaltis": "1",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Ottmar Walter",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "5",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.80"
+  },
+  {
+    "nombre": "Ernst Willimowski",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/38.gif?fallback=png",
+    "seleccion": "Polonia",
+    "partidos": "1",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "4.00"
+  },
+  {
+    "nombre": " Zarra",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "6",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "0.67"
+  },
+  {
+    "nombre": "Zden\u011bk Zik\u00e1n",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/8.gif?fallback=png",
+    "seleccion": "Checoslovaquia",
+    "partidos": "3",
+    "goles": "4",
+    "penaltis": "0",
+    "media": "1.33"
+  },
+  {
+    "nombre": "Jung-hwan Ahn",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/184.gif?fallback=png",
+    "seleccion": "Corea del Sur",
+    "partidos": "10",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.30"
+  },
+  {
+    "nombre": "Sami Al-Jaber",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/181.gif?fallback=png",
+    "seleccion": "Arabia Saudita",
+    "partidos": "9",
+    "goles": "3",
+    "penaltis": "2",
+    "media": "0.33"
+  },
+  {
+    "nombre": " Amarildo",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "4",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.75"
+  },
+  {
+    "nombre": "L\u00e9opold Anoul",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/5.gif?fallback=png",
+    "seleccion": "B\u00e9lgica",
+    "partidos": "2",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "1.50"
+  },
+  {
+    "nombre": "Juan Anselmo",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/66.gif?fallback=png",
+    "seleccion": "Uruguay",
+    "partidos": "2",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "1.50"
+  },
+  {
+    "nombre": "Gerry Armstrong",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/35.gif?fallback=png",
+    "seleccion": "Irlanda del Norte",
+    "partidos": "6",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Luis Artime",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "4",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.75"
+  },
+  {
+    "nombre": "Du\u0161an Bajevi\u0107",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/26.gif?fallback=png",
+    "seleccion": "Yugoslavia",
+    "partidos": "3",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Michael Ballack",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/11.gif?fallback=png",
+    "seleccion": "Alemania",
+    "partidos": "11",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.27"
+  },
+  {
+    "nombre": " Baltazar",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "5",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.60"
+  },
+  {
+    "nombre": "David Beckham",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/12.gif?fallback=png",
+    "seleccion": "Inglaterra",
+    "partidos": "13",
+    "goles": "3",
+    "penaltis": "1",
+    "media": "0.23"
+  },
+  {
+    "nombre": "Ivica Bek",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/26.gif?fallback=png",
+    "seleccion": "Yugoslavia",
+    "partidos": "3",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Karim Benzema",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "5",
+    "goles": "3",
+    "penaltis": "1",
+    "media": "0.60"
+  },
+  {
+    "nombre": "Cuauht\u00e9moc Blanco",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/139.gif?fallback=png",
+    "seleccion": "M\u00e9xico",
+    "partidos": "11",
+    "goles": "3",
+    "penaltis": "2",
+    "media": "0.27"
+  },
+  {
+    "nombre": "Sargin Burhan",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/50.gif?fallback=png",
+    "seleccion": "Turqu\u00eda",
+    "partidos": "2",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "1.50"
+  },
+  {
+    "nombre": "Jorge Burruchaga",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "14",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.21"
+  },
+  {
+    "nombre": " Caminero",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "4",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.75"
+  },
+  {
+    "nombre": " C\u00e9sar Sampaio",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "6",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Nico Claesen",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/5.gif?fallback=png",
+    "seleccion": "B\u00e9lgica",
+    "partidos": "8",
+    "goles": "3",
+    "penaltis": "1",
+    "media": "0.38"
+  },
+  {
+    "nombre": "Oreste Corbatta",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/58.gif?fallback=png",
+    "seleccion": "Argentina",
+    "partidos": "3",
+    "goles": "3",
+    "penaltis": "2",
+    "media": "1.00"
+  },
+  {
+    "nombre": "Johan Cruyff",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/21.gif?fallback=png",
+    "seleccion": "Pa\u00edses Bajos",
+    "partidos": "7",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.43"
+  },
+  {
+    "nombre": "Nelson Cuevas",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/64.gif?fallback=png",
+    "seleccion": "Paraguay",
+    "partidos": "4",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.75"
+  },
+  {
+    "nombre": "Zolt\u00e1n Czibor",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/54.gif?fallback=png",
+    "seleccion": "Hungr\u00eda",
+    "partidos": "5",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.60"
+  },
+  {
+    "nombre": "Agust\u00edn Delgado",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/62.gif?fallback=png",
+    "seleccion": "Ecuador",
+    "partidos": "6",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": " Did\u00ed",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "15",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.20"
+  },
+  {
+    "nombre": " Diego Costa",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/48.gif?fallback=png",
+    "seleccion": "Espa\u00f1a",
+    "partidos": "6",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Papa Bouba Diop",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/104.gif?fallback=png",
+    "seleccion": "Senegal",
+    "partidos": "5",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.60"
+  },
+  {
+    "nombre": " Dirceu",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "12",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.25"
+  },
+  {
+    "nombre": "Artem Dzyuba",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/41.gif?fallback=png",
+    "seleccion": "Rusia",
+    "partidos": "5",
+    "goles": "3",
+    "penaltis": "1",
+    "media": "0.60"
+  },
+  {
+    "nombre": "Samuel Eto'o",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/85.gif?fallback=png",
+    "seleccion": "Camer\u00fan",
+    "partidos": "8",
+    "goles": "3",
+    "penaltis": "1",
+    "media": "0.38"
+  },
+  {
+    "nombre": " Falc\u00e3o",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/60.gif?fallback=png",
+    "seleccion": "Brasil",
+    "partidos": "7",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.43"
+  },
+  {
+    "nombre": "Jacques Fatton",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/45.gif?fallback=png",
+    "seleccion": "Suiza",
+    "partidos": "7",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.43"
+  },
+  {
+    "nombre": "Milan Gali\u0107",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/26.gif?fallback=png",
+    "seleccion": "Yugoslavia",
+    "partidos": "6",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Bernard Genghini",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "6",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Steven Gerrard",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/12.gif?fallback=png",
+    "seleccion": "Inglaterra",
+    "partidos": "12",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.25"
+  },
+  {
+    "nombre": "Alain Giresse",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/16.gif?fallback=png",
+    "seleccion": "Francia",
+    "partidos": "12",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.25"
+  },
+  {
+    "nombre": "R\u00f3nald G\u00f3mez",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/126.gif?fallback=png",
+    "seleccion": "Costa Rica",
+    "partidos": "6",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.50"
+  },
+  {
+    "nombre": "Gheorghe Hagi",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/40.gif?fallback=png",
+    "seleccion": "Rumania",
+    "partidos": "12",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.25"
+  },
+  {
+    "nombre": "Eden Hazard",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/5.gif?fallback=png",
+    "seleccion": "B\u00e9lgica",
+    "partidos": "11",
+    "goles": "3",
+    "penaltis": "1",
+    "media": "0.27"
+  },
+  {
+    "nombre": "Juan Hohberg",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/66.gif?fallback=png",
+    "seleccion": "Uruguay",
+    "partidos": "2",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "1.50"
+  },
+  {
+    "nombre": "Roger Hunt",
+    "icono": "https://s.hs-data.com/bilder/wappen/mini/12.gif?fallback=png",
+    "seleccion": "Inglaterra",
+    "partidos": "6",
+    "goles": "3",
+    "penaltis": "0",
+    "media": "0.50"
+  }
+]
