@@ -16,6 +16,12 @@
         {{ post.specific.intro }}
         {{ post.specific.body|richtext }}
     {% endfor %}
+    <ul>
+    {% for noticia in noticias %}
+      <li>  {{noticia.date}}
+        <br><a href="{%url 'info_noticia' noticia.pk %}">{{noticia.titulo}}</a></li>
+    {% endfor %}
+    </ul>
 </div>
 {% endblock content %}
 

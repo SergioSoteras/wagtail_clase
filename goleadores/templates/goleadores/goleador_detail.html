@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}
-    <title>{{goleador.nombre}}</title>
+    {{goleador.nombre}}
 {% endblock %}
 {% block content %}
   <h1>{{goleador.nombre}}</h1>
@@ -10,5 +10,6 @@
   <br>Partigos Jugados: {{goleador.partidos}}
   <br>Goles de Penalti : {{goleador.penaltis}}
   <br>Media de Gol por Partido : {{goleador.media}}
+  <br><img src="https://i.gifer.com/9t1I.gif">
  
 {% endblock %}

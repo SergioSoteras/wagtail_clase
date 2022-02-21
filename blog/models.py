@@ -107,3 +107,31 @@ class BlogCategory(models.Model):
 
     class Meta:
         verbose_name_plural = 'blog categories'
+
+#NOTICIAS
+@register_snippet
+class NoticiaBlog(models.Model):
+    titulo = models.CharField(max_length=255)
+    info = RichTextField(blank=True)
+    date = models.DateField("Fecha Post")
+    
+    panels = [
+        FieldPanel('titulo','Titulo de la noticia'),
+        FieldPanel('info', 'Cuerpo de la noticia',classname="full"),
+        FieldPanel('date','Fecha de la Noticia'),
+        
+    ]
+
+    def __str__(self):
+        return self.titulo
+
+    class Meta:
+        verbose_name_plural = 'Noticias breves'
+
+# Pagina de Contacto
+class ContactoPage(Page):
+    introduccion = RichTextField(blank=True)
+
+    content_panels = Page.content_panels + [
+        FieldPanel('introduccion', classname="full")
+    ]
