@@ -15,7 +15,7 @@
         <thead><tr><td>Rank</td><td>Nombre</td><td>Selección</td><td>Partidos</td><td>Goles</td><td>Penaltis</td><td>Media Gol/Partido</td></tr></thead>
         <tbody>
         {% for goleador in goleadores %}
-        <tr><td>{{goleador.rank}}</td><td><a href="{%url 'info_goleador' goleador.pk %}">{{goleador.nombre}}</a></td><td><img src="{{goleador.icono}}" alt="{{goleador.seleccion}}">{{goleador.seleccion}}</td><td>{{goleador.partidos}}</td>
+        <tr><td>{{goleador.rank}}</td><td><a href="{%url 'info_goleador' goleador.pk %}">{{goleador.nombre}}</a></td><td><img src="{{goleador.icono}}" alt="{{goleador.seleccion}}">   {{goleador.seleccion}}</td><td>{{goleador.partidos}}</td>
             <td>{{goleador.goles}}</td><td>{{goleador.penaltis}}</td><td>{{goleador.media}}</td></tr>
         {% endfor %}
     </tbody>

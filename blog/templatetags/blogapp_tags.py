@@ -1,5 +1,6 @@
 from blog.models import BlogCategory as Category
 from blog.models import BlogPageTag as Tags
+from blog.models import Noticia as Noticias
 from django.template import Library, loader
 
 register = Library()
@@ -21,4 +22,13 @@ def tags_list(context):
     return {
         'request': context['request'],
         'tags': tags
+    }
+
+@register.inclusion_tag('components/noticias_list.html',
+                        takes_context=True)
+def noticias_list(context):
+    noticias = Noticias.objects.all().order_by('-date')[:5]
+    return {
+        'request': context['request'],
+        'noticias': noticias
     }
