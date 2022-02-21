@@ -27,6 +27,8 @@ class BlogIndexPage(Page):
         context['nombre'] = 'Sergio'
         return context
 
+    subpage_types = ['BlogPage',] #Añadir Viajes y Peli
+
 class BlogPageTag(TaggedItemBase):
     content_object = ParentalKey(
         'BlogPage',
@@ -63,6 +65,9 @@ class BlogPage(Page):
         FieldPanel('body', classname="full"),
         InlinePanel('gallery_images', label="Galleria de imágenes"),
     ]
+    # NO PUEDE TENER HIJAS Y SOLO PUEDESER HIJA DE BLOG INDEX PAGE
+    parent_page_types = ['BlogIndexPage',]
+    subpage_types = []
 
 class BlogPageGalleryImage(Orderable):
     page = ParentalKey(BlogPage, on_delete=models.CASCADE, related_name='gallery_images')
@@ -88,6 +93,9 @@ class BlogTagIndexPage(Page):
         context = super().get_context(request)
         context['blogpages'] = blogpages
         return context
+
+    # No puede tener paginas hijas
+    subpage_types = []
 
 @register_snippet
 class BlogCategory(models.Model):
