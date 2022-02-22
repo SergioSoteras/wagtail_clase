@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.views import generic
-from blog.models import NoticiaBlog
+from blog.models import Noticia
 # Create your views here.
 
 #vista de un goleador
-class NoticiaBlogDetailView(generic.DetailView):
-    model = NoticiaBlog
+class NoticiaDetailView(generic.DetailView):
+    model = Noticia

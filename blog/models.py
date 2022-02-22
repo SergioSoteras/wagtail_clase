@@ -27,6 +27,8 @@ class BlogIndexPage(Page):
         context['nombre'] = 'Sergio'
         return context
 
+    subpage_types = ['BlogPage',] #Añadir Viajes y Peli
+
 class BlogPageTag(TaggedItemBase):
     content_object = ParentalKey(
         'BlogPage',
@@ -63,6 +65,9 @@ class BlogPage(Page):
         FieldPanel('body', classname="full"),
         InlinePanel('gallery_images', label="Galleria de imágenes"),
     ]
+    # NO PUEDE TENER HIJAS Y SOLO PUEDESER HIJA DE BLOG INDEX PAGE
+    parent_page_types = ['BlogIndexPage',]
+    subpage_types = []
 
 class BlogPageGalleryImage(Orderable):
     page = ParentalKey(BlogPage, on_delete=models.CASCADE, related_name='gallery_images')
@@ -89,6 +94,9 @@ class BlogTagIndexPage(Page):
         context['blogpages'] = blogpages
         return context
 
+    # No puede tener paginas hijas
+    subpage_types = []
+
 @register_snippet
 class BlogCategory(models.Model):
     name = models.CharField(max_length=255)
@@ -108,30 +116,19 @@ class BlogCategory(models.Model):
     class Meta:
         verbose_name_plural = 'blog categories'
 
-#NOTICIAS
+# NOTICIAS
 @register_snippet
-class NoticiaBlog(models.Model):
+class Noticia(models.Model):
     titulo = models.CharField(max_length=255)
-    info = RichTextField(blank=True)
-    date = models.DateField("Fecha Post")
-    
+    cuerpo = RichTextField(blank=True)
+    date = models.DateField("Fecha Publicación")
+
     panels = [
-        FieldPanel('titulo','Titulo de la noticia'),
-        FieldPanel('info', 'Cuerpo de la noticia',classname="full"),
-        FieldPanel('date','Fecha de la Noticia'),
-        
+        FieldPanel('titulo'),
+        FieldPanel('cuerpo'),
+        FieldPanel('date'),
     ]
 
     def __str__(self):
         return self.titulo
 
-    class Meta:
-        verbose_name_plural = 'Noticias breves'
-
-# Pagina de Contacto
-class ContactoPage(Page):
-    introduccion = RichTextField(blank=True)
-
-    content_panels = Page.content_panels + [
-        FieldPanel('introduccion', classname="full")
-    ]

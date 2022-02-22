@@ -105,6 +105,8 @@ class PelisIndexPage(Page):
         
         return context
 
+    # No puede tener paginas hijas
+    subpage_types = []
 
 
    

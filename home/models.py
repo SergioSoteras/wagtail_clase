@@ -1,4 +1,7 @@
 from django.db import models
+from blog.models import BlogIndexPage, BlogTagIndexPage
+from goleadores.models import GoleadoresIndexPage
+from pelis.models import PelisIndexPage
 
 from wagtail.core.models import Page
 from wagtail.core.fields import RichTextField
@@ -14,11 +17,4 @@ class HomePage(Page):
         FieldPanel('body', classname="full"),
     ]
 
-    def get_context(self, request):
-
-        context = super().get_context(request)
-        noticias = NoticiaBlog.objects.all()
-
-        context['noticias'] = noticias
-    
-        return context
+    subpage_types = ['blog.BlogIndexPage','pelis.PelisIndexPage','goleadores.GoleadoresIndexPage','blog.BlogTagIndexPage']

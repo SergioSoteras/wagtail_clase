@@ -22,7 +22,7 @@ urlpatterns = [
     path('apipelis/',include(pelisurl)),
 
     path('goleador/<str:pk>', GoleadorDetailView.as_view(), name='info_goleador'),
-    path('noticias/<str:pk>', NoticiaBlogDetailView.as_view(), name='info_noticia'),
+    path('noticia/<str:pk>', NoticiaDetailView.as_view(), name='info_noticia'),
 ]
 
 
