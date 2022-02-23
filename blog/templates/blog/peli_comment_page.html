@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags wagtailimages_tags%}
+
+{% block body_class %}template-blogpage{% endblock %}
+
+{% block content %}
+<div class="container">    
+    <h1>{{ page.title }}</h1>
+
+    {{ page.comentario|richtext }}
+
+    <hr>
+    {% for peli in page.peliculas.all %}
+        
+            {{ peli.pelicula }}, 
+        
+    {% endfor %}
+    <hr>
+    <p><a href="{{ page.get_parent.url }}">Volver al blog</a></p>
+</div>
+
+
+
+{% endblock %}

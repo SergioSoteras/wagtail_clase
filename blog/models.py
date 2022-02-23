@@ -11,6 +11,7 @@ from wagtail.admin.edit_handlers import FieldPanel, InlinePanel, MultiFieldPanel
 from wagtail.images.edit_handlers import ImageChooserPanel
 from wagtail.search import index
 from wagtail.snippets.models import register_snippet
+from wagtail.snippets.edit_handlers import SnippetChooserPanel
 
 class BlogIndexPage(Page):
     introduccion = RichTextField(blank=True)
@@ -27,7 +28,7 @@ class BlogIndexPage(Page):
         context['nombre'] = 'Sergio'
         return context
 
-    subpage_types = ['BlogPage','ViajePage'] #Añadir Viajes y Peli
+    subpage_types = ['BlogPage','ViajePage','PeliCommentPage',] #Añadir Viajes y Peli
 
 class BlogPageTag(TaggedItemBase):
     content_object = ParentalKey(
@@ -166,4 +167,27 @@ class ViajePageGalleryImage(Orderable):
     panels = [
         ImageChooserPanel('image'),
         FieldPanel('caption'),
+    ]
+
+# PAGINA DE COMENTARIOS DE PELICULA
+class PeliCommentPage(Page):
+
+    comentario = RichTextField(blank=True)
+    
+    
+    content_panels = Page.content_panels + [ 
+        FieldPanel('comentario', classname="full"),  
+        InlinePanel('peliculas', label='Peliculas'),]
+    
+    # NO PUEDE TENER HIJAS Y SOLO PUEDE SER HIJA DE BLOG INDEX PAGE
+    parent_page_types = ['BlogIndexPage',]
+    subpage_types = []
+
+# orderable de peliculas para PeliCommentPage
+class PeliCommentPeliculas(Orderable):
+    page = ParentalKey(PeliCommentPage, on_delete=models.CASCADE, related_name='peliculas')
+    pelicula = models.ForeignKey('pelis.Pelicula',null=True,blank=True,on_delete=models.SET_NULL,related_name='+')
+    
+    panels = [
+        SnippetChooserPanel('pelicula')
     ]
