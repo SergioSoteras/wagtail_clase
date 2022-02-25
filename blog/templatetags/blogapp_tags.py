@@ -1,5 +1,6 @@
 from blog.models import BlogCategory as Category
 from blog.models import BlogPageTag as Tags
+from blog.models import FooterText as FooterText
 from blog.models import Noticia as Noticias
 from django.template import Library, loader
 
@@ -31,4 +32,15 @@ def noticias_list(context):
     return {
         'request': context['request'],
         'noticias': noticias
+    }
+
+@register.inclusion_tag('components/footer_text.html',
+                        takes_context=True)
+def get_footer_text(context):
+    footer_text = ""
+    if FooterText.objects.first() is not None:
+        footer_text = FooterText.objects.all()
+
+    return {
+        'footer_text': footer_text
     }

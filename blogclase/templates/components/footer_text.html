@@ -1,0 +1,7 @@
+{% load wagtailcore_tags %}
+
+<div class="copyright text-center text-muted" role="note">
+    {% for text in footer_text %}
+        {{ text.body|richtext }}
+    {% endfor %}
+</div>

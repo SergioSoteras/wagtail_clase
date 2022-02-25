@@ -1,7 +1,36 @@
-<footer class="mt-4 py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">
-        Hecho en clase <a href="https://cpilosenlaces.com/">Alumnos DAW</a>
-      </p>
+{% load blogapp_tags static %}
+<div class="container" role="contentinfo">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center">
+                <li>
+                    <a href="https://github.com/SergioSoteras/wagtail_clase">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-list-ul fa-stack-1x fa-inverse"></i>                           
+                        </span>GITHUB
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/wagtailcms" target="_blank">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-text-height fa-stack-1x fa-inverse"></i>
+                            
+                        </span>TWITTER
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wagtail.org/" target="_blank">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-link fa-stack-1x fa-inverse"></i>  
+                        </span>WAGTAIL DOC
+                    </a>
+                </li>
+            </ul>
+            {% get_footer_text %}
+        </div>
     </div>
-</footer>
+    
+</div>

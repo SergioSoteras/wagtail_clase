@@ -191,3 +191,18 @@ class PeliCommentPeliculas(Orderable):
     panels = [
         SnippetChooserPanel('pelicula')
     ]
+
+# snippet del texto del footer
+@register_snippet
+class FooterText(models.Model):
+    body = RichTextField()
+
+    panels = [
+        FieldPanel('body'),
+    ]
+
+    def __str__(self):
+        return "Footer text"
+
+    class Meta:
+        verbose_name_plural = 'Footer Text'
