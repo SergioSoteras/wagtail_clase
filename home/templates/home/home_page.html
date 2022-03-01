@@ -13,6 +13,7 @@
     {{ page.body|richtext }}
     {% for post in page.get_children %}
         <h2><a href="{% pageurl post %}">{{ post.title }}</a></h2>
+        <p>Pulsa en el enlace para ver la pagina de {{ post.title }}</p>
         {{ post.specific.intro }}
         {{ post.specific.body|richtext }}
     {% endfor %}
