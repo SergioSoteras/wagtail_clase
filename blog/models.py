@@ -4,9 +4,8 @@ from wagtail.contrib.forms.models import AbstractEmailForm, AbstractFormField
 from modelcluster.fields import ParentalKey, ParentalManyToManyField
 from modelcluster.contrib.taggit import ClusterTaggableManager
 from taggit.models import TaggedItemBase
-from .blocks import BaseStreamBlock
 from wagtail.core.models import Page, Orderable
-from wagtail.core.fields import RichTextField, StreamField
+from wagtail.core.fields import RichTextField
 from wagtail.admin.edit_handlers import *
 from wagtail.images.edit_handlers import ImageChooserPanel
 from wagtail.search import index
@@ -174,10 +173,17 @@ class PeliCommentPage(Page):
 
     comentario = RichTextField(blank=True)
     
+    def main_image(self):
+        gallery_item = self.gallery_images.first()
+        if gallery_item:
+            return gallery_item.image
+        else:
+            return None
     
     content_panels = Page.content_panels + [ 
         FieldPanel('comentario', classname="full"),  
-        InlinePanel('peliculas', label='Peliculas'),]
+        InlinePanel('peliculas', label='Peliculas'),
+        InlinePanel('gallery_images', label="Galleria de imágenes"),]
     
     # NO PUEDE TENER HIJAS Y SOLO PUEDE SER HIJA DE BLOG INDEX PAGE
     parent_page_types = ['BlogIndexPage',]
@@ -190,6 +196,18 @@ class PeliCommentPeliculas(Orderable):
     
     panels = [
         SnippetChooserPanel('pelicula')
+    ]
+
+class PeliCommentGalleryImage(Orderable):
+    page = ParentalKey(PeliCommentPage, on_delete=models.CASCADE, related_name='gallery_images')
+    image = models.ForeignKey(
+        'wagtailimages.Image', on_delete=models.CASCADE, related_name='+'
+    )
+    caption = models.CharField(blank=True, max_length=250)
+
+    panels = [
+        ImageChooserPanel('image'),
+        FieldPanel('caption'),
     ]
 
 # snippet del texto del footer
@@ -228,14 +246,14 @@ class FormPage(AbstractEmailForm):
         on_delete=models.SET_NULL,
         related_name='+'
     )
-    body = StreamField(BaseStreamBlock())
+    body = RichTextField(blank=True)
     thank_you_text = RichTextField(blank=True)
-
+    subpage_types = []
     # Note how we include the FormField object via an InlinePanel using the
     # related_name value
     content_panels = AbstractEmailForm.content_panels + [
         ImageChooserPanel('image'),
-        StreamFieldPanel('body'),
+        FieldPanel('body'),
         InlinePanel('form_fields', label="Form fields"),
         FieldPanel('thank_you_text', classname="full"),
         MultiFieldPanel([
