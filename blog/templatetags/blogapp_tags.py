@@ -1,5 +1,5 @@
 from blog.models import BlogCategory as Category
-from blog.models import BlogPageTag as Tags
+from blog.models import BlogPage
 from blog.models import FooterText as FooterText
 from blog.models import Noticia as Noticias
 from django.template import Library, loader
@@ -19,7 +19,12 @@ def categories_list(context):
 @register.inclusion_tag('components/tags_list.html',
                         takes_context=True)
 def tags_list(context):
-    tags = Tags.objects.all()
+    blogpages = BlogPage.objects.all()
+    tags = []
+    for blog in blogpages:
+        for tag in blog.tags.all():
+            tags.append(tag)
+        
     return {
         'request': context['request'],
         'tags': tags
