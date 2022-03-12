@@ -19,12 +19,7 @@ def categories_list(context):
 @register.inclusion_tag('components/tags_list.html',
                         takes_context=True)
 def tags_list(context):
-    blogpages = BlogPage.objects.all()
-    tags = []
-    for blog in blogpages:
-        for tag in blog.tags.all():
-            tags.append(tag)
-        
+    tags = BlogPage.tags.all()
     return {
         'request': context['request'],
         'tags': tags
